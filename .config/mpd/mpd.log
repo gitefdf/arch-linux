@@ -1,0 +1,1929 @@
+2025-07-06T08:45:39 exception: Failed to read from file: Is a directory
+2025-07-06T09:24:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T09:28:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T09:38:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T09:38:56 player: played "凡高先生.wav"
+2025-07-06T09:39:02 exception: Failed to read from file: Is a directory
+2025-07-06T09:41:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T09:41:39 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-06T09:41:39 player: played "流川枫与苍井空-黑撒-1127873-100.aac"
+2025-07-06T09:41:39 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-06T09:41:47 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-06T09:41:47 player: played "流川枫与苍井空-黑撒-1127873-100.aac"
+2025-07-06T09:43:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T09:46:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T18:54:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-06T18:54:52 flac: problem reading metadata
+2025-07-06T18:54:52 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-06T18:55:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T18:59:56 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-06T19:01:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:03:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-06T19:04:22 player: played "不为谁而作的歌-林俊杰-148562339-2000.flac"
+2025-07-06T19:06:17 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-06T19:06:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:07:00 player: played "山水之间-许嵩-4860442-2000.flac"
+2025-07-06T19:09:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:11:16 player: played "惊鸿一面-许嵩_黄龄-4856712-2000.flac"
+2025-07-06T19:13:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:16:02 player: played "不要说话-陈奕迅-391611.flac"
+2025-07-06T19:18:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:20:53 player: played "我听见有人叫你宝贝-李宗盛-3142543.flac"
+2025-07-06T19:22:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:25:24 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-06T19:27:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:28:56 player: played "不醉-黄渤-28388695.flac"
+2025-07-06T19:30:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:32:03 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-06T19:32:41 player: played "东京不太热_(Single_Version)-封茗囧菌-402105537-2000.flac"
+2025-07-06T19:34:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:37:06 player: played "来自你_来自我_来自他-罗大佑_周华健_李宗盛_赵传-29545089-2000.flac"
+2025-07-06T19:39:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:41:17 player: played "天使-五月天-225415.flac"
+2025-07-06T19:43:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:45:19 player: played "之乎者也-罗大佑-149966-2000.flac"
+2025-07-06T19:47:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:48:54 player: played "寂寞的季节-陶喆-151895.flac"
+2025-07-06T19:50:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-06T19:53:59 player: played "九局下半-MC_HotDog_热狗-150257-2000.flac"
+2025-07-06T19:55:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:26:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:26:11 player: played "05 天空之城.wav"
+2025-07-07T04:28:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:29:31 player: played "宾克斯的美酒-动漫原声-1121072.flac"
+2025-07-07T04:31:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:34:31 player: played "将进酒-吴彤-6977071-2000.flac"
+2025-07-07T04:36:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:39:49 player: played "憨人情歌-柯受良-293077-2000.flac"
+2025-07-07T04:41:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:44:02 player: played "濑柳小镇-木村好夫-5135987.flac"
+2025-07-07T04:46:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:46:57 player: played "爱转了一圈-金海心-7328166.flac"
+2025-07-07T04:48:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:51:00 player: played "阴天-李宗盛-4871702.flac"
+2025-07-07T04:53:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T04:55:33 player: played "孤独患者-陈奕迅-1104619.flac"
+2025-07-07T04:57:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:00:50 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-07T05:02:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:05:00 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-07T05:07:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:08:50 player: played "关于郑州的记忆.mp3"
+2025-07-07T05:10:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:13:09 player: played "七友-梁汉文-2284704-2000.flac"
+2025-07-07T05:15:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:17:55 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-07T05:19:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:20:32 flac: problem reading metadata
+2025-07-07T05:20:32 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-07T05:21:14 player: played "油麻菜籽-李宗盛-1024060.flac"
+2025-07-07T05:23:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:25:23 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-07T05:25:44 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-07T05:27:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:29:22 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T05:29:58 player: played "2002年的第一场雪-刀郎-125223-2000.flac"
+2025-07-07T05:31:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:32:35 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T05:33:15 player: played "情人-刀郎-90519-2000.flac"
+2025-07-07T05:35:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:37:38 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-07T05:39:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:40:59 player: played "Moves_Like_Jagger-Maroon_5-1128081-2000.flac"
+2025-07-07T05:42:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:44:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T05:45:08 player: played "沧海一声笑-罗大佑_黄霑_徐克-29251869-2000.flac"
+2025-07-07T05:47:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:48:56 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T05:49:14 player: played "缘分一道桥-王力宏_谭维维-36878203-4000.flac"
+2025-07-07T05:51:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:53:55 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T05:54:33 player: played "Shoot_to_Thrill-AC_DC-9569506-2000.flac"
+2025-07-07T05:56:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T05:57:51 player: played "I_Can_Fly-陈冠希-901942.flac"
+2025-07-07T05:59:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:03:17 player: played "Lose_Yourself-Eminem-371019.flac"
+2025-07-07T06:05:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:07:24 player: played "Doom_And_Gloom_(Jeff_Bhasker_Mix)-The_Rolling_Stones-26059148-2000.flac"
+2025-07-07T06:09:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:11:04 player: played "Wonderful_Tonight-Eric_Clapton-313924.flac"
+2025-07-07T06:13:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:17:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:20:47 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T06:21:24 player: played "MY_ALL-浜崎あゆみ-543883-2000.flac"
+2025-07-07T06:23:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:24:53 player: played "Highway_To_Hell-AC_DC-9840269-2000.flac"
+2025-07-07T06:26:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:28:31 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T06:29:08 player: played "普通朋友-陶喆-98934-2000.flac"
+2025-07-07T06:31:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:32:19 player: played "War_Machine-AC_DC-655202.flac"
+2025-07-07T06:34:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:38:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:41:28 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-07T06:43:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:45:16 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T06:45:54 player: played "不为谁而作的歌-林俊杰-148562339-2000.flac"
+2025-07-07T06:47:48 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T06:47:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:48:32 player: played "山水之间-许嵩-4860442-2000.flac"
+2025-07-07T06:50:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:52:49 player: played "惊鸿一面-许嵩_黄龄-4856712-2000.flac"
+2025-07-07T06:54:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T06:57:34 player: played "不要说话-陈奕迅-391611.flac"
+2025-07-07T06:59:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:02:25 player: played "我听见有人叫你宝贝-李宗盛-3142543.flac"
+2025-07-07T07:04:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:06:57 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-07T07:08:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:10:28 player: played "不醉-黄渤-28388695.flac"
+2025-07-07T07:12:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:13:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T07:14:13 player: played "东京不太热_(Single_Version)-封茗囧菌-402105537-2000.flac"
+2025-07-07T07:16:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:18:39 player: played "来自你_来自我_来自他-罗大佑_周华健_李宗盛_赵传-29545089-2000.flac"
+2025-07-07T07:20:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:22:49 player: played "天使-五月天-225415.flac"
+2025-07-07T07:24:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:26:52 player: played "之乎者也-罗大佑-149966-2000.flac"
+2025-07-07T07:28:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:30:26 player: played "寂寞的季节-陶喆-151895.flac"
+2025-07-07T07:32:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:35:31 player: played "九局下半-MC_HotDog_热狗-150257-2000.flac"
+2025-07-07T07:37:14 player: played "05 天空之城.wav"
+2025-07-07T07:37:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:40:34 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-07T07:42:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:43:50 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T07:44:34 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-07T07:46:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:48:35 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-07T07:50:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:52:02 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T07:52:43 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-07T07:54:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:57:04 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-07T07:59:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T07:59:27 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T08:00:07 player: played "Rock_or_Bust-AC_DC-56222163-2000.flac"
+2025-07-07T08:02:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:03:35 player: played "单车-陈奕迅-320058-2000.flac"
+2025-07-07T08:05:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:06:31 flac: problem reading metadata
+2025-07-07T08:06:31 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-07T08:07:12 player: played "因为爱情-陈奕迅_王菲-941528.flac"
+2025-07-07T08:09:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:11:32 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-07T08:11:52 player: played "My_Back_Pages(Live)-Bob_Dylan-522712.flac"
+2025-07-07T08:13:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:15:15 player: played "坏孩子的天空-陈冠希-122594.flac"
+2025-07-07T08:17:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:19:24 player: played "战争-陈冠希_陈奂仁_胡蓓蔚_MC仁-292525-2000.flac"
+2025-07-07T08:21:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:23:21 player: played "Poker_Face-Lady_Gaga-3536269-2000.flac"
+2025-07-07T08:25:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:29:54 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T08:30:33 player: played "Hey_Jude-The_Beatles-79261875.flac"
+2025-07-07T08:32:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:34:35 player: played "Don't_Stop_(New_Rock_Mix)-The_Rolling_Stones-3522499-2000.flac"
+2025-07-07T08:36:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:39:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:42:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:42:19 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-07T08:42:20 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-07T08:44:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:45:23 player: played "As_Time_Goes_By-Bob_Dylan-23533484.flac"
+2025-07-07T08:47:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:48:46 player: played "How_Deep_is_the_Ocean-Bob_Dylan-23533346.flac"
+2025-07-07T08:50:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:52:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T08:53:30 player: played "浮夸-陈奕迅-110247-2000.flac"
+2025-07-07T08:55:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:57:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T08:57:55 player: played "Moonlight_Shadow-Dana_Winner-708770-2000.flac"
+2025-07-07T08:59:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T09:00:19 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T09:01:05 player: played "Maps-Maroon_5_Big_Sean-4760494-2000.flac"
+2025-07-07T09:03:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T09:04:53 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T09:05:01 player: played "Sugar-Maroon_5-5272489-4000.flac"
+2025-07-07T09:07:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T09:09:20 player: played "泡沫-G_E_M_邓紫棋-1245657.flac"
+2025-07-07T17:49:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T17:51:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:09:21 player: played "Yesterday-The_Beatles-63519829.flac"
+2025-07-07T18:09:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:39:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:47:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:48:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T18:49:09 player: played "危险_(Live)-梁博-41196322-2000.flac"
+2025-07-07T18:50:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:53:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:55:02 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T18:55:40 player: played "东京不太热_(Single_Version)-封茗囧菌-402105537-2000.flac"
+2025-07-07T18:57:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T18:59:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T19:01:04 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-07T19:01:42 player: played "东京不太热_(Single_Version)-封茗囧菌-402105537-2000.flac"
+2025-07-07T19:03:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T19:06:14 player: played "来自你_来自我_来自他-罗大佑_周华健_李宗盛_赵传-29545089-2000.flac"
+2025-07-07T19:08:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T19:10:25 player: played "天使-五月天-225415.flac"
+2025-07-07T19:12:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T23:45:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-07T23:49:02 player: played "将进酒-吴彤-6977071-2000.flac"
+2025-07-07T23:51:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:34:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:36:53 player: played "濑柳小镇-木村好夫-5135987.flac"
+2025-07-08T00:38:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:39:48 player: played "爱转了一圈-金海心-7328166.flac"
+2025-07-08T00:41:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:43:50 player: played "阴天-李宗盛-4871702.flac"
+2025-07-08T00:45:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:48:24 player: played "孤独患者-陈奕迅-1104619.flac"
+2025-07-08T00:50:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:53:41 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-08T00:55:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T00:57:51 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-08T00:59:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:01:41 player: played "关于郑州的记忆.mp3"
+2025-07-08T01:03:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:06:00 player: played "七友-梁汉文-2284704-2000.flac"
+2025-07-08T01:08:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:10:46 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-08T01:12:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:13:22 flac: problem reading metadata
+2025-07-08T01:13:22 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-08T01:14:05 player: played "油麻菜籽-李宗盛-1024060.flac"
+2025-07-08T01:16:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:18:14 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-08T01:18:35 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-08T01:20:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:22:12 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T01:22:49 player: played "2002年的第一场雪-刀郎-125223-2000.flac"
+2025-07-08T01:24:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:25:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T01:26:06 player: played "情人-刀郎-90519-2000.flac"
+2025-07-08T01:28:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:30:29 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-08T01:32:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:33:50 player: played "Moves_Like_Jagger-Maroon_5-1128081-2000.flac"
+2025-07-08T01:35:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:37:16 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T01:37:59 player: played "沧海一声笑-罗大佑_黄霑_徐克-29251869-2000.flac"
+2025-07-08T01:39:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:41:48 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T01:42:05 player: played "缘分一道桥-王力宏_谭维维-36878203-4000.flac"
+2025-07-08T01:44:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:46:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T01:47:24 player: played "Shoot_to_Thrill-AC_DC-9569506-2000.flac"
+2025-07-08T01:49:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:50:42 player: played "I_Can_Fly-陈冠希-901942.flac"
+2025-07-08T01:52:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T01:56:08 player: played "Lose_Yourself-Eminem-371019.flac"
+2025-07-08T01:58:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:00:21 player: played "Doom_And_Gloom_(Jeff_Bhasker_Mix)-The_Rolling_Stones-26059148-2000.flac"
+2025-07-08T02:02:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:04:00 player: played "Wonderful_Tonight-Eric_Clapton-313924.flac"
+2025-07-08T02:06:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:08:49 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T02:09:28 player: played "MY_ALL-浜崎あゆみ-543883-2000.flac"
+2025-07-08T02:11:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:12:56 player: played "Highway_To_Hell-AC_DC-9840269-2000.flac"
+2025-07-08T02:14:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:16:33 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T02:17:11 player: played "普通朋友-陶喆-98934-2000.flac"
+2025-07-08T02:19:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:20:22 player: played "War_Machine-AC_DC-655202.flac"
+2025-07-08T02:22:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:25:18 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-08T02:27:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:30:02 player: played "最远的你是我最近的爱(原唱版)-史俊鹏-4389742.flac"
+2025-07-08T02:30:09 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-08T02:32:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:34:29 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-08T02:36:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:38:23 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T02:38:42 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-08T02:40:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:42:18 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T02:43:01 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-08T02:45:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:47:25 player: played "Love_The_Way_You_Lie-Eminem_Rihanna-786910-2000.flac"
+2025-07-08T02:49:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:50:31 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-08T02:52:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:53:47 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T02:54:32 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-08T02:56:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T02:58:32 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-08T03:00:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:01:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T03:02:40 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-08T03:04:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:07:01 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-08T03:09:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:09:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T03:10:04 player: played "Rock_or_Bust-AC_DC-56222163-2000.flac"
+2025-07-08T03:12:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:13:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T03:14:17 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-08T03:16:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:17:39 player: played "As_Time_Goes_By-Bob_Dylan-23533484.flac"
+2025-07-08T03:19:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:22:11 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-08T03:24:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:27:12 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T03:27:50 player: played "给我一点温度_(Live)-梁博-41196326-2000.flac"
+2025-07-08T03:29:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:31:14 player: played "坏孩子的天空-陈冠希-122594.flac"
+2025-07-08T03:33:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:35:21 player: played "Doom_And_Gloom_(Jeff_Bhasker_Mix)-The_Rolling_Stones-26059148-2000.flac"
+2025-07-08T03:37:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:39:00 player: played "Wonderful_Tonight-Eric_Clapton-313924.flac"
+2025-07-08T03:41:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:43:26 player: played "Moonlight_Shadow-Dana_Winner-708770-2000.flac"
+2025-07-08T03:45:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:46:54 player: played "Highway_To_Hell-AC_DC-9840269-2000.flac"
+2025-07-08T03:48:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:51:45 player: played "我听见有人叫你宝贝-李宗盛-3142543.flac"
+2025-07-08T03:51:52 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-08T03:53:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T03:58:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T03:59:04 player: played "Hey_Jude-The_Beatles-79261875.flac"
+2025-07-08T04:01:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:02:41 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:03:23 player: played "颠倒梦想_(Live)-梁博-41196324-2000.flac"
+2025-07-08T04:05:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:06:19 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:06:57 player: played "一起摇摆-汪峰-3559912-2000.flac"
+2025-07-08T04:08:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:10:26 player: played "单车-陈奕迅-320058-2000.flac"
+2025-07-08T04:12:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:13:21 player: played "爱转了一圈-金海心-7328166.flac"
+2025-07-08T04:15:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:18:25 player: played "九局下半-MC_HotDog_热狗-150257-2000.flac"
+2025-07-08T04:20:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:26:18 player: played "变了_(Live)-梁博-41196323-2000.flac"
+2025-07-08T04:28:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:28:43 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:29:28 player: played "Maps-Maroon_5_Big_Sean-4760494-2000.flac"
+2025-07-08T04:31:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:34:24 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-08T04:36:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:38:01 player: played "因为爱情-陈奕迅_王菲-941528.flac"
+2025-07-08T04:40:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:41:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:42:09 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-08T04:44:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:45:46 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:46:24 player: played "普通朋友-陶喆-98934-2000.flac"
+2025-07-08T04:48:18 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T04:48:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:49:02 player: played "山水之间-许嵩-4860442-2000.flac"
+2025-07-08T04:51:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:53:21 player: played "七友-梁汉文-2284704-2000.flac"
+2025-07-08T04:55:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T04:59:13 player: played "I_Wanna_Change-影视原声-1076034-2000.flac"
+2025-07-08T05:01:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:03:57 player: played "最远的你是我最近的爱(原唱版)-史俊鹏-4389742.flac"
+2025-07-08T05:05:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:08:43 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-08T05:10:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:12:53 player: played "凡高先生.wav"
+2025-07-08T05:14:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:17:04 player: played "天使-五月天-225415.flac"
+2025-07-08T05:19:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:20:41 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T05:21:23 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-08T05:23:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:25:44 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-08T05:27:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:30:03 player: played "泡沫-G_E_M_邓紫棋-1245657.flac"
+2025-07-08T05:32:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:35:29 player: played "Lose_Yourself-Eminem-371019.flac"
+2025-07-08T05:37:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:39:43 player: played "濑柳小镇-木村好夫-5135987.flac"
+2025-07-08T05:41:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:43:59 player: played "惊鸿一面-许嵩_黄龄-4856712-2000.flac"
+2025-07-08T05:45:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:48:02 player: played "之乎者也-罗大佑-149966-2000.flac"
+2025-07-08T05:50:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:51:08 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T05:51:46 player: played "东京不太热_(Single_Version)-封茗囧菌-402105537-2000.flac"
+2025-07-08T05:53:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:55:44 player: played "Poker_Face-Lady_Gaga-3536269-2000.flac"
+2025-07-08T05:57:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T05:59:15 player: played "不醉-黄渤-28388695.flac"
+2025-07-08T06:01:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:03:00 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T06:03:10 player: played "Sugar-Maroon_5-5272489-4000.flac"
+2025-07-08T06:05:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:06:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T06:07:11 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-08T06:09:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:12:28 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-08T06:14:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:15:34 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-08T06:17:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:19:35 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-08T06:21:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:22:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T06:22:52 player: played "情人-刀郎-90519-2000.flac"
+2025-07-08T06:24:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:27:11 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-08T06:29:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:31:56 player: played "不要说话-陈奕迅-391611.flac"
+2025-07-08T06:33:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:35:18 player: played "Moves_Like_Jagger-Maroon_5-1128081-2000.flac"
+2025-07-08T06:37:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:37:53 flac: problem reading metadata
+2025-07-08T06:37:53 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-08T06:38:36 player: played "I_Can_Fly-陈冠希-901942.flac"
+2025-07-08T06:40:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:42:07 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-08T06:42:27 player: played "春风秋雨-叶蒨文-171830.flac"
+2025-07-08T06:44:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:46:29 player: played "阴天-李宗盛-4871702.flac"
+2025-07-08T06:48:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:51:02 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-08T06:53:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:54:51 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T06:55:28 player: played "不为谁而作的歌-林俊杰-148562339-2000.flac"
+2025-07-08T06:57:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T06:58:54 player: played "后会无期-徐良-1119795-2000.flac"
+2025-07-08T07:00:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:02:56 player: played "Don't_Stop_(New_Rock_Mix)-The_Rolling_Stones-3522499-2000.flac"
+2025-07-08T07:04:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:07:35 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-08T07:08:15 player: played "Shoot_to_Thrill-AC_DC-9569506-2000.flac"
+2025-07-08T07:10:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:12:39 player: played "Love_The_Way_You_Lie-Eminem_Rihanna-786910-2000.flac"
+2025-07-08T07:14:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:16:49 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-08T07:18:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:18:56 player: played "Yesterday-The_Beatles-63519829.flac"
+2025-07-08T07:20:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:22:02 flac: problem reading metadata
+2025-07-08T07:22:02 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-08T07:22:44 player: played "3关于郑州的记忆.wav"
+2025-07-08T07:24:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:26:54 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-08T07:27:13 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-08T07:29:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T07:29:03 player: played "How_Deep_is_the_Ocean-Bob_Dylan-23533346.flac"
+2025-07-08T22:02:27 exception: Failed to read from file: Is a directory
+2025-07-08T22:19:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-08T22:20:56 exception: Failed to read from file: Is a directory
+2025-07-08T22:22:19 player: played "05 天空之城.wav"
+2025-07-08T22:27:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T00:55:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:08:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:09:07 player: played "最远的你是我最近的爱(原唱版)-史俊鹏-4389742.flac"
+2025-07-09T03:11:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:14:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:16:12 player: played "最远的你是我最近的爱(原唱版)-史俊鹏-4389742.flac"
+2025-07-09T03:16:26 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-09T03:17:07 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-09T03:18:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:18:31 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-09T03:19:35 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-09T03:20:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:47:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:49:00 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T03:49:19 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-09T03:50:34 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-09T03:51:15 flac: problem reading metadata
+2025-07-09T03:51:15 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T03:51:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:53:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T03:55:17 player: played "正港的男儿-柯受良-4871546-320.mp3"
+2025-07-09T03:57:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:00:34 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-09T04:02:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:05:29 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-09T04:07:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:08:35 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T04:10:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:11:53 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T04:12:36 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-09T04:14:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:16:36 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-09T04:18:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:20:03 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T04:20:45 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-09T04:22:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:25:05 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-09T04:27:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:28:13 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T04:28:51 player: played "看我72变-蔡依林-1915665-2000.flac"
+2025-07-09T04:30:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:32:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T04:33:04 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-09T04:35:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:37:27 player: played "Love_The_Way_You_Lie-Eminem_Rihanna-786910-2000.flac"
+2025-07-09T04:39:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:41:06 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T04:41:06 flac: problem reading metadata
+2025-07-09T04:41:06 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T04:41:47 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-09T04:43:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:46:08 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-09T04:46:27 player: played "My_Back_Pages(Live)-Bob_Dylan-522712.flac"
+2025-07-09T04:48:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:49:50 player: played "坏孩子的天空-陈冠希-122594.flac"
+2025-07-09T04:51:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:53:59 player: played "战争-陈冠希_陈奂仁_胡蓓蔚_MC仁-292525-2000.flac"
+2025-07-09T04:55:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T04:58:25 player: played "Moonlight_Shadow-Dana_Winner-708770-2000.flac"
+2025-07-09T05:00:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:02:22 player: played "Poker_Face-Lady_Gaga-3536269-2000.flac"
+2025-07-09T05:04:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:06:19 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T05:07:06 player: played "浮夸-陈奕迅-110247-2000.flac"
+2025-07-09T05:08:59 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T05:09:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:09:44 player: played "山水之间-许嵩-4860442-2000.flac"
+2025-07-09T05:11:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:14:16 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-09T05:16:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:19:23 player: played "后来的我们(Life_Live)-五月天-69544950.flac"
+2025-07-09T05:21:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:23:40 player: played "信仰-张信哲-322009.flac"
+2025-07-09T05:25:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:46:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:48:29 player: played "处处吻-杨千嬅-877978.flac"
+2025-07-09T05:49:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:52:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:52:28 player: played "正港的男儿-柯受良-4871546-320.mp3"
+2025-07-09T05:54:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T05:57:44 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-09T05:59:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:02:40 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-09T06:02:56 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T06:02:56 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T06:02:58 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T06:02:58 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T06:04:32 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:04:37 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:04:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:04:43 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:04:50 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:05:30 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:06:12 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T06:06:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:09:13 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T06:09:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:10:01 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-09T06:12:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:13:39 flac: problem reading metadata
+2025-07-09T06:13:39 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T06:14:22 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-09T06:16:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:17:03 player: played "My_Back_Pages(Live)-Bob_Dylan-522712.flac"
+2025-07-09T06:17:04 flac: problem reading metadata
+2025-07-09T06:17:04 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T06:19:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:21:07 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-09T06:23:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:27:55 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-09T06:29:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:31:01 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T06:31:41 player: played "看我72变-蔡依林-1915665-2000.flac"
+2025-07-09T06:33:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:36:04 player: played "Love_The_Way_You_Lie-Eminem_Rihanna-786910-2000.flac"
+2025-07-09T06:38:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:39:50 player: played "正港的男儿-柯受良-4871546-320.mp3"
+2025-07-09T06:41:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:44:06 player: played "信仰-张信哲-322009.flac"
+2025-07-09T06:46:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:47:33 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T06:48:14 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-09T06:50:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:51:34 player: played "处处吻-杨千嬅-877978.flac"
+2025-07-09T06:53:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:55:13 player: played "伤心的人别听慢歌(Life_Live)-五月天_黄渤-69544954.flac"
+2025-07-09T06:57:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T06:58:36 player: played "坏孩子的天空-陈冠希-122594.flac"
+2025-07-09T07:00:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:03:09 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-09T07:04:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:04:45 player: played "浮夸-陈奕迅-110247-2000.flac"
+2025-07-09T07:05:29 exception: Failed to read from file: Is a directory
+2025-07-09T07:07:01 flac: problem reading metadata
+2025-07-09T07:07:01 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T07:08:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:11:40 player: played "那么爱你为什么-黄品源_莫文蔚-162196353-2000.flac"
+2025-07-09T07:12:33 player: played "凡高先生.wav"
+2025-07-09T07:13:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:16:31 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T07:16:48 player: played "缘分一道桥-王力宏_谭维维-36878203-4000.flac"
+2025-07-09T07:18:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:21:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:24:34 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-09T07:24:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:27:40 player: played "Numb-Linkin_Park-663756-2000.flac"
+2025-07-09T07:29:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:32:49 player: played "后来的我们(Life_Live)-五月天-69544950.flac"
+2025-07-09T07:34:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:36:57 player: played "电台情歌-莫文蔚-320577-2000.flac"
+2025-07-09T07:38:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:41:34 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-09T07:43:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:45:50 player: played "春泥-庾澄庆-626184.flac"
+2025-07-09T07:47:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:50:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:51:45 flac: problem reading metadata
+2025-07-09T07:51:45 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-09T07:52:26 player: played "爱似水仙-金海心-454680.flac"
+2025-07-09T07:54:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T07:56:13 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-09T07:56:35 player: played "潇洒走一回-叶倩文-16361913.flac"
+2025-07-09T07:58:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:00:02 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T08:00:11 player: played "告白气球-周杰伦-7149583-4000.flac"
+2025-07-09T08:02:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:03:14 player: played "分分钟需要你-林子祥-91398.flac"
+2025-07-09T08:05:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:08:47 player: played "罗刹海市-刀郎-288010178-2000.flac"
+2025-07-09T08:10:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:12:39 player: played "德福巷的酒鬼-黑撒-50096074.flac"
+2025-07-09T08:14:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:16:07 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T08:16:47 player: played "风吹麦浪-李健-239653-2000.flac"
+2025-07-09T08:18:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:19:37 player: played "去大理-黄渤-5355377.flac"
+2025-07-09T08:21:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:23:03 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T08:23:47 player: played "怪咖-薛之谦-45718040-2000.flac"
+2025-07-09T08:25:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:28:27 player: played "志明与春娇-五月天-26276989.flac"
+2025-07-09T08:30:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:32:40 player: played "恋愛サーキュレーション-花澤香菜-648817-2000.flac"
+2025-07-09T08:34:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:38:57 player: played "銀の龍の背に乗って-中島みゆき-45805930-2000.flac"
+2025-07-09T08:40:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T08:43:22 player: played "那么爱你为什么-黄品源_莫文蔚-162196353-2000.flac"
+2025-07-09T08:45:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:14:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:15:07 player: played "05 天空之城.wav"
+2025-07-09T09:17:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:18:55 player: played "3关于郑州的记忆.wav"
+2025-07-09T09:20:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:24:48 player: played "I_Wanna_Change-影视原声-1076034-2000.flac"
+2025-07-09T09:26:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:28:57 player: played "凡高先生.wav"
+2025-07-09T09:30:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:32:36 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-09T09:34:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:36:02 player: played "后会无期-徐良-1119795-2000.flac"
+2025-07-09T09:38:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:39:22 player: played "宾克斯的美酒-动漫原声-1121072.flac"
+2025-07-09T09:41:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:44:21 player: played "将进酒-吴彤-6977071-2000.flac"
+2025-07-09T09:46:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:48:28 player: played "春末的南方城市.wav"
+2025-07-09T09:50:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:52:14 player: played "正港的男儿-柯受良-4871546-320.mp3"
+2025-07-09T09:54:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:55:24 player: played "缘分一道桥-王力宏_谭维维-36878203-4000.flac"
+2025-07-09T09:55:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T09:55:57 exception: Failed to read from file: Is a directory
+2025-07-09T09:56:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T10:49:16 exception: Failed to read from file: Is a directory
+2025-07-09T10:51:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T10:51:36 player: played "05 天空之城.wav"
+2025-07-09T10:53:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T10:55:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T10:56:05 player: played "05 天空之城.wav"
+2025-07-09T10:57:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:05:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:11:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:12:02 player: played "雪之梦-Bandari-1211340-2000.flac"
+2025-07-09T11:14:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:16:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:19:21 player: played "I_Wanna_Change-影视原声-1076034-2000.flac"
+2025-07-09T11:19:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:21:29 player: played "05 天空之城.wav"
+2025-07-09T11:23:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:25:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-09T11:26:22 player: played "雪之梦-Bandari-1211340-2000.flac"
+2025-07-09T11:28:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:28:27 exception: Failed to open audio output
+2025-07-09T11:28:38 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-09T11:28:43 exception: Failed to open audio output
+2025-07-09T11:28:47 exception: All audio outputs are disabled
+2025-07-09T11:28:54 exception: All audio outputs are disabled
+2025-07-09T11:28:56 exception: All audio outputs are disabled
+2025-07-09T11:28:57 exception: All audio outputs are disabled
+2025-07-09T11:28:58 player: played "05 天空之城.wav"
+2025-07-09T11:28:59 exception: All audio outputs are disabled
+2025-07-09T11:28:59 player: problems opening audio device while playing "05 天空之城.wav"
+2025-07-09T11:29:01 exception: All audio outputs are disabled
+2025-07-09T11:29:03 exception: All audio outputs are disabled
+2025-07-09T11:29:05 exception: All audio outputs are disabled
+2025-07-09T11:29:11 exception: All audio outputs are disabled
+2025-07-09T11:30:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:30:42 player: played "春末的南方城市.wav"
+2025-07-09T11:32:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:34:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:37:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T11:39:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:02:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:03:20 player: played "分分钟需要你-林子祥-91398.flac"
+2025-07-09T12:05:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:06:23 player: played "分分钟需要你-林子祥-91398.flac"
+2025-07-09T12:08:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:10:52 player: played "囚鸟(Remastered)-张宇-15212899.flac"
+2025-07-09T12:12:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:15:08 player: played "囚鸟(Remastered)-张宇-15212899.flac"
+2025-07-09T12:17:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:19:23 player: played "囚鸟(Remastered)-张宇-15212899.flac"
+2025-07-09T12:21:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:23:38 player: played "囚鸟(Remastered)-张宇-15212899.flac"
+2025-07-09T12:25:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:26:56 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-09T12:28:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:31:58 player: played "口是心非-张雨生-2837709.flac"
+2025-07-09T12:33:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-09T12:36:53 player: played "口是心非-张雨生-2837709.flac"
+2025-07-09T12:38:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T00:06:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T02:09:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T02:09:18 player: played "过火-张信哲-40831785.flac"
+2025-07-10T07:03:02 exception: Failed to read from file: Is a directory
+2025-07-10T07:05:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:07:33 player: played "断桥残雪-许嵩-5056718-2000.flac"
+2025-07-10T07:09:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:11:04 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T07:11:06 player: played "活着Viva-谢霆锋-70610986.flac"
+2025-07-10T07:11:06 flac: problem reading metadata
+2025-07-10T07:11:06 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T07:11:21 player: played "贫民百万歌星-MC_HotDog_热狗-1373853-2000.flac"
+2025-07-10T07:13:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:14:47 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T07:15:07 player: played "赢在江湖-姜鹏-41370782.flac"
+2025-07-10T07:17:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:19:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:42:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T07:42:12 player: played "南方姑娘-赵雷-2134876.flac"
+2025-07-10T08:01:41 exception: Failed to read from file: Is a directory
+2025-07-10T08:02:37 player: played "05 天空之城.wav"
+2025-07-10T08:03:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:07:15 player: played "喜帖街-谢安琪-466292.flac"
+2025-07-10T08:08:58 player: played "花妖-刀郎-288010103-2000.flac"
+2025-07-10T08:09:13 flac: problem reading metadata
+2025-07-10T08:09:13 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T08:09:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:11:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:14:43 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T08:14:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:15:02 player: played "消愁_(Live)-毛不易-27101590-4000.flac"
+2025-07-10T08:17:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:19:52 flac: problem reading metadata
+2025-07-10T08:19:52 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T08:21:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:25:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:50:36 player: played "温柔坏男人-柯受良-22801428-2000.flac"
+2025-07-10T08:50:53 player: played "去大理-郝云-5258749.flac"
+2025-07-10T08:50:55 flac: problem reading metadata
+2025-07-10T08:50:55 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T08:52:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:53:34 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T08:53:53 player: played "都选C-赵英俊-91711307.flac"
+2025-07-10T08:54:34 flac: problem reading metadata
+2025-07-10T08:54:34 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T08:55:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T08:58:43 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T08:59:03 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-10T09:01:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:03:18 player: played "凡人歌-李宗盛-29315289-2000.flac"
+2025-07-10T09:05:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:07:47 player: played "三十岁的女人-赵雷-5835277-2000.flac"
+2025-07-10T09:09:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:12:22 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-10T09:14:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:16:54 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-10T09:18:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:21:25 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-10T09:23:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:25:57 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-10T09:27:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:29:22 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:30:05 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:32:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:33:21 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:34:06 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:36:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:37:22 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:38:06 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:40:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:41:22 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:42:07 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:44:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:45:23 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:46:07 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:48:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:49:23 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:50:07 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:52:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:53:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:54:08 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T09:56:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T09:57:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T09:58:08 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:00:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:01:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:02:09 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:04:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:05:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:06:09 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:08:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:09:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:10:10 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:12:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:13:26 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:14:10 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:16:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:17:26 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:18:11 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:20:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:21:27 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:22:11 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:24:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:25:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:26:12 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:28:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:29:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:30:12 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:32:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:33:29 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:34:13 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:36:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:37:29 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:38:13 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:40:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:41:30 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:42:13 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:44:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:45:29 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:46:14 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:48:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:49:30 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:50:14 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:52:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:53:31 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:54:15 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T10:56:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T10:57:31 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T10:58:15 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:00:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:01:32 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:02:16 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:04:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:05:31 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:06:16 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:08:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:09:33 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:10:17 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:12:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:13:32 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:14:17 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:16:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:17:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:18:17 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:20:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:21:33 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:22:18 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:24:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:25:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:26:18 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:28:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:29:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:30:19 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:32:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:33:35 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:34:19 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:36:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:37:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:38:20 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:40:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:41:36 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:42:20 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:44:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:45:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:46:21 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:48:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:49:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:50:21 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:52:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:53:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:54:22 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T11:56:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T11:57:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T11:58:22 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T12:00:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:01:39 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T12:02:22 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T12:04:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:05:38 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T12:06:23 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T12:08:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:09:39 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T12:10:23 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-10T12:12:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:14:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:16:17 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:18:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:19:48 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:21:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:23:20 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:25:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:26:51 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:28:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:30:22 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:32:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:33:53 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:35:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:37:25 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:39:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:40:56 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:42:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:44:27 player: played "不醉-黄渤-28388695.flac"
+2025-07-10T12:46:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:48:27 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-10T12:50:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:52:05 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-10T12:54:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:55:43 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-10T12:57:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T12:59:22 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-10T13:01:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:03:00 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-10T13:05:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:07:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:09:18 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T13:10:02 player: played "危险_(Live)-梁博-41196322-2000.flac"
+2025-07-10T13:12:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:13:38 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T13:14:23 player: played "危险_(Live)-梁博-41196322-2000.flac"
+2025-07-10T13:16:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:18:00 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T13:18:45 player: played "危险_(Live)-梁博-41196322-2000.flac"
+2025-07-10T13:20:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:23:48 player: played "天使-五月天-225415.flac"
+2025-07-10T13:25:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:28:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:30:58 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-10T13:32:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:35:20 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-10T13:37:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:39:43 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-10T13:39:50 flac: problem reading metadata
+2025-07-10T13:39:50 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T13:41:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:43:58 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T13:43:58 flac: problem reading metadata
+2025-07-10T13:43:58 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T13:44:18 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-10T13:46:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:48:27 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T13:48:27 flac: problem reading metadata
+2025-07-10T13:48:27 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T13:48:48 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-10T13:50:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:52:57 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T13:52:57 flac: problem reading metadata
+2025-07-10T13:52:57 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T13:53:17 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-10T13:55:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T13:57:26 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T13:57:26 flac: problem reading metadata
+2025-07-10T13:57:26 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T13:57:46 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-10T13:59:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:03:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:05:12 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T14:05:51 player: played "江南-林俊杰-93157-2000.flac"
+2025-07-10T14:07:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:09:39 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T14:10:19 player: played "江南-林俊杰-93157-2000.flac"
+2025-07-10T14:12:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:15:28 player: played "大声说拜拜-张宇-4359957.ape"
+2025-07-10T14:17:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:18:51 player: played "大声说拜拜-张宇-4359957.ape"
+2025-07-10T14:20:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:22:13 player: played "大声说拜拜-张宇-4359957.ape"
+2025-07-10T14:24:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:25:36 player: played "大声说拜拜-张宇-4359957.ape"
+2025-07-10T14:27:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:28:59 player: played "大声说拜拜-张宇-4359957.ape"
+2025-07-10T14:29:19 flac: problem reading metadata
+2025-07-10T14:29:19 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T14:30:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:33:07 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T14:33:07 flac: problem reading metadata
+2025-07-10T14:33:07 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T14:33:29 player: played "潇洒走一回-叶倩文-16361913.flac"
+2025-07-10T14:35:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:37:16 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-10T14:37:16 flac: problem reading metadata
+2025-07-10T14:37:16 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-10T14:37:38 player: played "潇洒走一回-叶倩文-16361913.flac"
+2025-07-10T14:39:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:42:40 player: played "干杯-五月天-3654739.flac"
+2025-07-10T14:44:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:47:29 player: played "干杯-五月天-3654739.flac"
+2025-07-10T14:49:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:52:18 player: played "干杯-五月天-3654739.flac"
+2025-07-10T14:54:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T14:57:07 player: played "干杯-五月天-3654739.flac"
+2025-07-10T14:59:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:01:56 player: played "干杯-五月天-3654739.flac"
+2025-07-10T15:03:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:06:46 player: played "干杯-五月天-3654739.flac"
+2025-07-10T15:08:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:12:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:16:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:18:49 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-10T15:20:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:23:25 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-10T15:25:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:28:02 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-10T15:30:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:32:39 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-10T15:34:22 exception: Decoder failed to seek
+2025-07-10T15:34:22 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-10T15:34:29 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:29 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:30 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:38 player: played "演员-薛之谦-7201082-2000.flac"
+2025-07-10T15:34:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:34:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:34:54 player: played "演员-薛之谦-7201082-2000.flac"
+2025-07-10T15:35:06 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:35:06 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:35:06 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:35:07 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-10T15:35:12 player: played "演员-薛之谦-7201082-2000.flac"
+2025-07-10T15:36:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:39:25 player: played "离开地球表面-五月天-281762.flac"
+2025-07-10T15:40:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T15:44:01 player: played "离开地球表面-五月天-281762.flac"
+2025-07-10T15:46:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T16:56:24 player: played "虚拟-陈粒-7214806.flac"
+2025-07-10T16:58:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-10T17:00:25 player: played "虚拟-陈粒-7214806.flac"
+2025-07-10T17:00:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T11:07:10 player: played "流年啊_你奈我何-汪峰-6546429-2000.flac"
+2025-07-11T11:08:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T11:11:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T15:54:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T15:55:14 player: played "流年啊_你奈我何-汪峰-6546429-2000.flac"
+2025-07-11T15:57:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T20:11:36 player: played "Yesterday-The_Beatles-63519829.flac"
+2025-07-11T20:13:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-11T20:16:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:04:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:05:14 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T05:05:59 player: played "城府-许嵩-461313-2000.flac"
+2025-07-12T05:06:22 player: played "干杯-五月天-3654739.flac"
+2025-07-12T05:07:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:11:37 player: played "干杯-五月天-3654739.flac"
+2025-07-12T05:13:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:27:43 player: played "爱似水仙-金海心-454680.flac"
+2025-07-12T05:29:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:29:21 player: played "红尘客栈-周杰伦-3195905-2000.flac"
+2025-07-12T05:31:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:32:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+2025-07-12T05:32:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T05:32:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+2025-07-12T05:32:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T05:33:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:34:32 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T05:34:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T05:35:04 player: played "在木星_(Live)-朴树-41196001-2000.flac"
+2025-07-12T05:35:41 flac: problem reading metadata
+2025-07-12T05:35:41 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-12T05:35:58 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-12T05:35:58 flac: problem reading metadata
+2025-07-12T05:35:58 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-12T05:36:17 player: played "赢在江湖-姜鹏-41370782.flac"
+2025-07-12T05:36:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:36:50 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-12T05:36:51 flac: problem reading metadata
+2025-07-12T05:36:51 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-12T05:36:53 player: played "赢在江湖-姜鹏-41370782.flac"
+2025-07-12T05:38:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:39:33 player: played "伤心地铁(Live)-李宗盛-12803994.flac"
+2025-07-12T05:41:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:44:00 player: played "不必在乎我是谁(Live)-李宗盛-12804012.flac"
+2025-07-12T05:46:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:48:08 player: played "伤心地铁(Live)-李宗盛-12803994.flac"
+2025-07-12T05:50:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:50:29 player: played "因为单身的缘故(Live)-李宗盛-12804016.flac"
+2025-07-12T05:50:56 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-12T05:51:01 player: played "去大理-郝云-5258749.flac"
+2025-07-12T05:51:01 exception: Decoder failed to seek
+2025-07-12T05:51:12 player: played "去大理-郝云-5258749.flac"
+2025-07-12T05:51:12 exception: Decoder failed to seek
+2025-07-12T05:51:27 player: played "去大理-郝云-5258749.flac"
+2025-07-12T05:51:27 exception: Decoder failed to seek
+2025-07-12T05:52:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T05:53:27 player: played "Big_Gun-AC_DC-648765.flac"
+2025-07-12T05:55:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:14:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:42:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:43:48 player: played "为什么呢-郭涛_田原-28055449.mp3"
+2025-07-12T08:45:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:46:43 player: played "爱转了一圈-金海心-7328166.flac"
+2025-07-12T08:48:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:50:50 player: played "爱似水仙-金海心-454680.flac"
+2025-07-12T08:52:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:54:59 player: played "呼吸_爱-金海心-22800473.flac"
+2025-07-12T08:57:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T08:59:43 player: played "阳光下的星星-金海心-123509.flac"
+2025-07-12T09:01:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:03:46 player: played "可惜没如果(Live)-金海心-9879530.flac"
+2025-07-12T09:05:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:08:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:26:07 player: played "那么骄傲-金海心-59837.flac"
+2025-07-12T09:26:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:29:56 player: played "悲伤的秋千-金海心-85398.flac"
+2025-07-12T09:31:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:33:14 player: played "I_Can_Fly-陈冠希-901942.flac"
+2025-07-12T09:35:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:36:26 player: played "单恋高校-陈冠希-78299-2000.flac"
+2025-07-12T09:38:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:39:50 player: played "坏孩子的天空-陈冠希-122594.flac"
+2025-07-12T09:41:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:44:05 player: played "香港地-陈冠希-19249162.flac"
+2025-07-12T09:46:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:48:15 player: played "战争-陈冠希_陈奂仁_胡蓓蔚_MC仁-292525-2000.flac"
+2025-07-12T09:50:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:51:31 player: played "没时间后悔-陈奂仁-3576997.flac"
+2025-07-12T09:53:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T09:56:05 player: played "孤独患者-陈奕迅-1104619.flac"
+2025-07-12T09:58:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:00:24 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-12T10:02:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:04:45 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-12T10:06:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:08:13 player: played "单车-陈奕迅-320058-2000.flac"
+2025-07-12T10:10:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:12:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T10:12:57 player: played "浮夸-陈奕迅-110247-2000.flac"
+2025-07-12T10:14:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:17:42 player: played "不要说话-陈奕迅-391611.flac"
+2025-07-12T10:19:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:21:24 player: played "K歌之王-陈奕迅-125120.flac"
+2025-07-12T10:23:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:25:06 player: played "稳稳的幸福-陈奕迅-3236471.flac"
+2025-07-12T10:27:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:29:17 player: played "好久不见-陈奕迅-1038994.flac"
+2025-07-12T10:31:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:38:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:40:47 player: played "淘汰-陈奕迅-236687-2000.flac"
+2025-07-12T10:42:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:44:24 player: played "因为爱情-陈奕迅_王菲-941528.flac"
+2025-07-12T10:46:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T10:50:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T14:45:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T14:47:17 player: played "你瞒我瞒-陈柏宇-500101.flac"
+2025-07-12T14:49:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T14:52:38 player: played "再见时光_(纪念版)-陈焕文-6418150-320.mp3"
+2025-07-12T14:54:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T14:54:59 player: played "光-陈粒-6274617.flac"
+2025-07-12T14:56:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T14:59:12 player: played "奇妙能力歌-陈粒-6168313.flac"
+2025-07-12T15:01:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:02:32 player: played "易燃易爆炸-陈粒-6274619.flac"
+2025-07-12T15:04:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:06:28 player: played "走马-陈粒-6274608.flac"
+2025-07-12T15:08:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:11:25 player: played "小半-陈粒-7214800.flac"
+2025-07-12T15:13:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:14:25 player: played "桥豆麻袋-陈粒-7214801.flac"
+2025-07-12T15:16:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:18:26 player: played "虚拟-陈粒-7214806.flac"
+2025-07-12T15:20:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:21:12 player: played "性空山-陈粒-6410347.mp3"
+2025-07-12T15:23:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:25:11 player: played "清透(Live)-陈粒-141965512.flac"
+2025-07-12T15:27:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:27:56 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T15:28:42 player: played "理想三旬-陈鸿宇-6572330.flac"
+2025-07-12T15:30:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T15:33:00 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T15:33:42 player: played "小镇姑娘-陶喆-26034137-2000.flac"
+2025-07-12T16:08:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:09:51 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T16:10:28 player: played "普通朋友-陶喆-98934-2000.flac"
+2025-07-12T16:12:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:14:03 player: played "寂寞的季节-陶喆-151895.flac"
+2025-07-12T16:16:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:17:40 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T16:18:27 player: played "就是爱你-陶喆-103135-2000.flac"
+2025-07-12T16:20:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:22:45 player: played "就是爱你-陶喆-103135.flac"
+2025-07-12T16:24:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:27:38 player: played "爱我还是他-陶喆-103134-2000.flac"
+2025-07-12T16:29:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:32:07 player: played "爱，很简单-陶喆-320409-2000.flac"
+2025-07-12T16:34:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:36:48 player: played "飞机场的10_30-陶喆-320410-2000.flac"
+2025-07-12T16:38:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:41:19 player: played "Melody-陶喆-247594-2000.flac"
+2025-07-12T16:43:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:44:55 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-12T16:45:40 player: played "二十二-陶喆-1092928-2000.flac"
+2025-07-12T16:47:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T16:50:02 player: played "二十二-陶喆-1092928.flac"
+2025-07-12T16:52:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T18:00:48 player: played "今天你要嫁给我-陶喆_蔡依林-680397-2000.flac"
+2025-07-12T18:02:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T20:38:26 player: played "那么爱你为什么-黄品源_莫文蔚-162196353-2000.flac"
+2025-07-12T20:46:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T20:51:02 player: played "不醉-黄渤-28388695.flac"
+2025-07-12T21:05:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T21:09:36 player: played "去大理-黄渤-5355377.flac"
+2025-07-12T21:14:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T21:18:21 player: played "德福巷的酒鬼-黑撒-50096074.flac"
+2025-07-12T21:22:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-12T21:23:38 player: played "快乐的破烂王-黑撒-518531.flac"
+2025-07-12T21:27:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-13T03:16:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T04:18:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T04:18:37 player: played "黄粱一梦-黑撒-518530.flac"
+2025-07-14T12:29:39 exception: Failed to read from file: Is a directory
+2025-07-14T12:30:10 player: played "05 天空之城.wav"
+2025-07-14T12:31:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:33:20 player: played "3关于郑州的记忆.wav"
+2025-07-14T12:35:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:39:11 player: played "I_Wanna_Change-影视原声-1076034-2000.flac"
+2025-07-14T12:41:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:43:21 player: played "凡高先生.wav"
+2025-07-14T12:45:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:46:59 player: played "卷睫盼-吴彤_陈琳-22848703-192.ogg"
+2025-07-14T12:49:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:50:26 player: played "后会无期-徐良-1119795-2000.flac"
+2025-07-14T12:52:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-14T12:53:45 player: played "宾克斯的美酒-动漫原声-1121072.flac"
+2025-07-14T13:20:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-17T11:08:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-17T11:11:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T18:24:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T18:26:45 player: played "春末的南方城市.wav"
+2025-07-18T18:27:35 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-18T18:27:35 player: played "流川枫与苍井空-黑撒-1127873-100.aac"
+2025-07-18T18:27:35 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-18T18:28:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T18:31:48 player: played "濑柳小镇-木村好夫-5135987.flac"
+2025-07-18T18:33:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T18:34:43 player: played "爱转了一圈-金海心-7328166.flac"
+2025-07-18T18:36:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T18:39:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:35:45 player: played "阴天-李宗盛-4871702.flac"
+2025-07-18T22:36:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:38:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:42:01 player: played "直到世界尽头-WANDS-673445.flac"
+2025-07-18T22:44:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:46:11 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-18T22:48:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:50:01 player: played "关于郑州的记忆.mp3"
+2025-07-18T22:52:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:54:20 player: played "七友-梁汉文-2284704-2000.flac"
+2025-07-18T22:56:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T22:59:06 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-18T23:01:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:01:40 flac: problem reading metadata
+2025-07-18T23:01:40 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-18T23:02:25 player: played "油麻菜籽-李宗盛-1024060.flac"
+2025-07-18T23:04:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:06:34 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-18T23:06:34 flac: problem reading metadata
+2025-07-18T23:06:34 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-18T23:06:54 player: played "三天三夜-张惠妹-1025538.flac"
+2025-07-18T23:08:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:10:37 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-18T23:11:00 player: played "前前后后左左右右-谢霆锋-312580.flac"
+2025-07-18T23:13:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:14:38 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:15:15 player: played "2002年的第一场雪-刀郎-125223-2000.flac"
+2025-07-18T23:17:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:17:50 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:18:32 player: played "情人-刀郎-90519-2000.flac"
+2025-07-18T23:20:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:22:54 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-18T23:24:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:26:16 player: played "Moves_Like_Jagger-Maroon_5-1128081-2000.flac"
+2025-07-18T23:28:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:29:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:30:24 player: played "沧海一声笑-罗大佑_黄霑_徐克-29251869-2000.flac"
+2025-07-18T23:32:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:34:33 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:35:10 player: played "鹿港小镇-罗大佑-29531830-2000.flac"
+2025-07-18T23:37:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:38:59 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:39:16 player: played "缘分一道桥-王力宏_谭维维-36878203-4000.flac"
+2025-07-18T23:41:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:43:36 player: played "Big_Gun-AC_DC-648765.flac"
+2025-07-18T23:45:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:47:40 player: played "无赖-郑中基-19003873.flac"
+2025-07-18T23:49:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:51:14 player: played "喜帖街-谢安琪-466292.flac"
+2025-07-18T23:52:42 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-18T23:52:49 player: played "漂洋过海来看你-李宗盛-7031523.flac"
+2025-07-18T23:53:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:56:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-18T23:58:37 player: played "电灯胆-邓丽欣-229053.flac"
+2025-07-19T00:00:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:02:44 player: played "Doom_And_Gloom_(Jeff_Bhasker_Mix)-The_Rolling_Stones-26059148-2000.flac"
+2025-07-19T00:04:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:06:23 player: played "Wonderful_Tonight-Eric_Clapton-313924.flac"
+2025-07-19T00:08:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:11:11 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:11:50 player: played "MY_ALL-浜崎あゆみ-543883-2000.flac"
+2025-07-19T00:13:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:15:19 player: played "Highway_To_Hell-AC_DC-9840269-2000.flac"
+2025-07-19T00:17:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:18:31 player: played "单恋高校-陈冠希-78299-2000.flac"
+2025-07-19T00:20:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:22:50 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:23:27 player: played "小镇姑娘-陶喆-26034137-2000.flac"
+2025-07-19T00:25:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:27:04 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:27:42 player: played "普通朋友-陶喆-98934-2000.flac"
+2025-07-19T00:29:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:30:53 player: played "War_Machine-AC_DC-655202.flac"
+2025-07-19T00:32:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:35:49 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-19T00:37:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:38:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:39:27 player: played "小酒窝-林俊杰_蔡卓妍-27783249-2000.flac"
+2025-07-19T00:41:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:42:32 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:43:13 player: played "看我72变-蔡依林-1915665-2000.flac"
+2025-07-19T00:45:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:47:57 player: played "最远的你是我最近的爱(原唱版)-史俊鹏-4389742.flac"
+2025-07-19T00:49:57 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:52:20 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-19T00:54:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T00:56:14 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T00:56:33 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-19T00:58:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T01:00:09 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T01:00:52 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-19T01:02:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T01:05:16 player: played "Love_The_Way_You_Lie-Eminem_Rihanna-786910-2000.flac"
+2025-07-19T01:07:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T01:10:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T12:40:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T12:41:37 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T12:42:31 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-19T12:56:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T14:48:21 player: played "苏州河-薛凯琪-602240-2000.flac"
+2025-07-19T14:50:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T14:52:02 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T14:52:41 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-19T14:54:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T14:57:12 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-19T14:59:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T15:00:09 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-19T15:00:59 player: played "Rock_or_Bust-AC_DC-56222163-2000.flac"
+2025-07-19T15:03:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T15:04:42 player: played "单车-陈奕迅-320058-2000.flac"
+2025-07-19T20:15:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-19T20:21:43 flac: problem reading metadata
+2025-07-19T20:21:43 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-19T20:23:29 player: played "因为爱情-陈奕迅_王菲-941528.flac"
+2025-07-19T20:56:21 player: played "My_Back_Pages(Live)-Bob_Dylan-522712.flac"
+2025-07-19T20:56:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T00:47:32 exception: Failed to read from file: Is a directory
+2025-07-20T00:49:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T00:51:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T00:52:03 player: played "一起摇摆-汪峰-3559912-2000.flac"
+2025-07-20T00:54:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T00:56:46 player: played "阳光下的星星-金海心-123509.flac"
+2025-07-20T00:58:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:01:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+2025-07-20T01:01:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:01:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+2025-07-20T01:01:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:01:12 player: played "不为谁而作的歌-林俊杰-6802905.flac"
+2025-07-20T01:02:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+2025-07-20T01:02:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:02:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_BAD_HEADER
+2025-07-20T01:02:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:02:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_FRAME_CRC_MISMATCH
+2025-07-20T01:02:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:02:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:02:45 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:03:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:05:55 player: played "黑色梦中-窦唯-59194.flac"
+2025-07-20T01:07:55 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:10:41 player: played "这世界那么多人-莫文蔚-176704915.flac"
+2025-07-20T01:12:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:15:16 player: played "怒放的生命-汪峰-45827646-2000.flac"
+2025-07-20T01:17:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:19:42 player: played "我不愿_让你一个人-五月天-56062728.flac"
+2025-07-20T01:21:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:24:16 player: played "仙儿-二手玫瑰乐队-41302540.flac"
+2025-07-20T01:26:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:29:10 player: played "菊花台-周杰伦-138804-2000.flac"
+2025-07-20T01:31:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:33:38 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:34:21 player: played "风继续吹-张国荣-157159-2000.flac"
+2025-07-20T01:36:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:38:34 player: played "因为单身的缘故-杨宗纬-1080768.flac"
+2025-07-20T01:40:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:42:13 player: played "像梦一样自由-汪峰-24048266-2000.flac"
+2025-07-20T01:44:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:45:30 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:46:14 player: played "征服-柯受良-58218.flac"
+2025-07-20T01:48:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:50:45 player: played "Melody-陶喆-247594-2000.flac"
+2025-07-20T01:52:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:54:06 player: played "Moves_Like_Jagger-Maroon_5-1128081-2000.flac"
+2025-07-20T01:56:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T01:57:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T01:58:26 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-20T02:00:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:02:49 player: played "麦田捕手-白安-3208646.flac"
+2025-07-20T02:04:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:07:35 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-20T02:09:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:10:32 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-20T02:11:14 player: played "将军令-五月天-5986327.flac"
+2025-07-20T02:11:14 player: played "流川枫与苍井空-黑撒-1127873-100.aac"
+2025-07-20T02:11:14 exception: Failed to decode "/home/luck/music/流川枫与苍井空-黑撒-1127873-100.aac"; Invalid channel count: 0
+2025-07-20T02:11:14 player: played "流川枫与苍井空-黑撒-1127873-100.aac"
+2025-07-20T02:13:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:15:09 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T02:15:27 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-20T02:17:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:20:17 player: played "雨一直下-张宇-228948-2000.flac"
+2025-07-20T02:22:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:24:06 player: played "日不落-蔡依林-312341-2000.flac"
+2025-07-20T02:25:42 player: played "我是真的爱你-李宗盛-38526355.flac"
+2025-07-20T02:26:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:30:00 player: played "我是真的爱你-李宗盛-38526355.flac"
+2025-07-20T02:32:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:34:33 player: played "鬼-梁博-8485914.flac"
+2025-07-20T02:36:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:37:22 player: played "浮夸-陈奕迅-110247-2000.flac"
+2025-07-20T02:37:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:38:36 exception: Failed to read from file: Is a directory
+2025-07-20T02:40:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T02:53:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T03:55:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T03:56:56 player: played "饿狼传说-张学友-1226262-2000.flac"
+2025-07-20T03:58:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:01:29 player: played "爱就一个字-张信哲-993960.flac"
+2025-07-20T04:03:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:06:03 player: played "仙儿-二手玫瑰乐队-41302540.flac"
+2025-07-20T04:08:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:19:05 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T04:19:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:19:46 player: played "小酒窝-林俊杰_蔡卓妍-27783249-2000.flac"
+2025-07-20T04:21:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:24:35 player: played "路南柯-刀郎-288010138-2000.flac"
+2025-07-20T04:26:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:29:19 player: played "我是真的爱你-李宗盛-38526355.flac"
+2025-07-20T04:31:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:33:53 player: played "步步-五月天-56218336.flac"
+2025-07-20T04:35:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:37:19 flac: problem reading metadata
+2025-07-20T04:37:19 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-20T04:37:19 ffmpeg/mp3float: invalid new backstep -1
+2025-07-20T04:38:03 player: played "派对动物-五月天-7097026.flac"
+2025-07-20T04:40:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:42:07 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-20T04:42:27 player: played "因为爱所以爱-谢霆锋-153836.flac"
+2025-07-20T04:44:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:47:13 player: played "鹿港小镇-罗大佑-29531830.flac"
+2025-07-20T04:49:07 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T04:49:13 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:49:50 player: played "山水之间-许嵩-4860442-2000.flac"
+2025-07-20T04:51:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:54:48 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T04:55:07 player: played "飞得更高-汪峰-25083516-2000.flac"
+2025-07-20T04:57:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T04:59:17 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-20T05:01:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:04:08 player: played "未来的底片-刀郎-288009909-2000.flac"
+2025-07-20T05:06:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:08:01 player: played "德福巷的酒鬼-黑撒-50096074.flac"
+2025-07-20T05:10:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:12:17 player: played "镜听-刀郎-288010113-2000.flac"
+2025-07-20T05:14:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:16:37 player: played "阴天快乐-陈奕迅-4148191.flac"
+2025-07-20T05:18:38 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:21:15 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T05:21:35 player: played "寡妇村传奇_(Live)-周华健-41196390-4000.flac"
+2025-07-20T05:23:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:25:57 player: played "二十二-陶喆-1092928.flac"
+2025-07-20T05:27:58 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:28:17 player: played "后青春期的诗-五月天-443599.flac"
+2025-07-20T05:30:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T05:32:55 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T05:33:14 player: played "空空如也_(Live)-汪峰-40916400-4000.flac"
+2025-07-20T05:35:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:13:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:21:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:21:41 player: played "男人眼泪-柯受良-22874870.flac"
+2025-07-20T18:23:13 exception: Failed to read from file: Is a directory
+2025-07-20T18:24:28 player: played "志明与春娇-五月天-26276989.flac"
+2025-07-20T18:25:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:29:09 player: played "志明与春娇-五月天-26276989.flac"
+2025-07-20T18:31:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:34:39 player: played "我的楼兰-云朵-59141878.flac"
+2025-07-20T18:36:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:39:15 player: played "用心良苦-张宇-408047.flac"
+2025-07-20T18:41:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:44:09 player: played "晚婚(Live)-李宗盛-12804015.flac"
+2025-07-20T18:46:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:49:30 player: played "再见时光_(纪念版)-陈焕文-6418150-320.mp3"
+2025-07-20T18:51:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:52:05 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T18:52:49 player: played "放声再见-田原-54995026-2000.flac"
+2025-07-20T18:54:50 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T18:56:15 player: played "月下独酌(Live)-毛不易_廖俊涛-40679787.flac"
+2025-07-20T18:58:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T19:00:40 player: played "那么爱你为什么-黄品源_莫文蔚-162196353-2000.flac"
+2025-07-20T21:45:51 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T21:48:45 player: played "好久不见-陈奕迅-1038994.flac"
+2025-07-20T21:50:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T21:53:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T21:56:07 player: played "这世界那么多人-莫文蔚-176704915.flac"
+2025-07-20T21:58:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:01:46 player: played "无地自容-黑豹乐队-99220.flac"
+2025-07-20T22:03:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:05:43 player: played "蛮荒情场-杨宗纬-1080723.flac"
+2025-07-20T22:07:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:10:34 player: played "我听见有人叫你宝贝-李宗盛-3142543.flac"
+2025-07-20T22:12:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:14:10 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T22:14:27 player: played "Hotel_California-Eagles-1084212-2000.flac"
+2025-07-20T22:16:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:19:05 player: played "给自己的歌-李宗盛-701435.flac"
+2025-07-20T22:21:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:23:22 player: played "香港地-陈冠希-19249162.flac"
+2025-07-20T22:25:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:27:45 player: played "烟花易冷-周杰伦-728677-2000.flac"
+2025-07-20T22:29:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:31:32 player: played "夜曲-周杰伦-118980-2000.flac"
+2025-07-20T22:33:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:33:53 player: played "光-陈粒-6274617.flac"
+2025-07-20T22:35:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:38:19 player: played "来自你_来自我_来自他-罗大佑_周华健_李宗盛_赵传-29545089-2000.flac"
+2025-07-20T22:40:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:41:35 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T22:41:35 flac: problem reading metadata
+2025-07-20T22:41:35 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-20T22:42:18 player: played "背对背拥抱-林俊杰-6684180-2000.flac"
+2025-07-20T22:44:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:47:36 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-20T22:47:58 player: played "真心真意过一生-叶蒨文-324349.flac"
+2025-07-20T22:49:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:50:25 player: played "为什么呢-郭涛_田原-28055449.mp3"
+2025-07-20T22:52:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:54:59 player: played "顽固(Life_Live)-五月天-69544961.flac"
+2025-07-20T22:56:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T22:59:48 player: played "带我去远方-田原-71936620-2000.flac"
+2025-07-20T23:01:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:04:37 player: played "Miss_You-The_Rolling_Stones-45853865.flac"
+2025-07-20T23:06:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:06:40 flac: problem reading metadata
+2025-07-20T23:06:40 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-20T23:07:22 player: played "最好的一天(Life_Live)-五月天-69544940.flac"
+2025-07-20T23:09:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:10:01 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-20T23:10:20 player: played "都选C-赵英俊-91711307.flac"
+2025-07-20T23:12:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:14:54 player: played "情非得已-庾澄庆-626201.flac"
+2025-07-20T23:16:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:19:23 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T23:20:10 player: played "Don't_Break_My_Heart-黑豹乐队-251929.flac"
+2025-07-20T23:22:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:25:10 player: played "将进酒-吴彤-6977071-2000.flac"
+2025-07-20T23:27:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:33:04 player: played "变了_(Live)-梁博-41196323-2000.flac"
+2025-07-20T23:35:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:37:59 player: played "一路向北-周杰伦-6871880-2000.flac"
+2025-07-20T23:39:59 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:40:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-20T23:41:10 player: played "Maps-Maroon_5_Big_Sean-4760494-2000.flac"
+2025-07-20T23:43:10 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:45:18 player: played "电台情歌-莫文蔚-320577-2000.flac"
+2025-07-20T23:47:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:49:18 player: played "入阵曲(Life_Live)-五月天-69544943.flac"
+2025-07-20T23:51:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:53:48 player: played "在我生命中的每一天-成龙_苏慧伦-1164449.flac"
+2025-07-20T23:55:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-20T23:58:31 player: played "阳光下的星星-金海心-123509.flac"
+2025-07-21T00:00:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:01:58 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-21T00:02:39 player: played "丑八怪-薛之谦-3565454-2000.flac"
+2025-07-21T00:04:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:06:13 player: played "喜帖街-谢安琪-466292.flac"
+2025-07-21T00:08:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:10:39 player: played "不为谁而作的歌-林俊杰-6802905.flac"
+2025-07-21T00:12:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:14:48 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-21T00:15:31 player: played "那些花儿_(Live)-朴树-41195999-2000.flac"
+2025-07-21T00:17:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:20:19 player: played "融化-梁博-6686314.flac"
+2025-07-21T00:22:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:26:11 player: played "I_Wanna_Change-影视原声-1076034-2000.flac"
+2025-07-21T00:28:11 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:31:17 player: played "流川枫与校花-黑撒-1127873.flac"
+2025-07-21T00:33:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:35:30 player: played "濑柳小镇-木村好夫-5135987.flac"
+2025-07-21T00:37:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:38:16 player: played "性空山-陈粒-6410347.mp3"
+2025-07-21T00:40:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T00:42:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T01:48:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T04:04:58 player: played "Don't_Stop_(New_Rock_Mix)-The_Rolling_Stones-3522499-2000.flac"
+2025-07-21T04:05:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T04:19:46 player: played "颠倒梦想_(Live)-梁博-41196324-2000.flac"
+2025-07-21T14:56:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T15:18:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T15:21:17 player: played "和自己赛跑的人(Live)-李宗盛-1025935.flac"
+2025-07-21T15:23:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T15:25:49 player: played "爱的代价-李宗盛-3142540-2000.flac"
+2025-07-21T15:27:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T15:30:22 player: played "长安夜-王建房-3569717.flac"
+2025-07-21T15:32:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T15:34:56 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T20:19:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-21T20:19:49 player: played "可惜没如果-林俊杰-6182865-2000.flac"
+2025-07-22T04:02:37 exception: Failed to read from file: Is a directory
+2025-07-22T04:04:43 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:06:14 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T04:06:52 player: played "贝加尔湖畔-李健-1116274-2000.flac"
+2025-07-22T04:08:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:09:48 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T04:10:33 player: played "红颜-胡彦斌-146169-2000.flac"
+2025-07-22T04:12:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:14:33 player: played "红玫瑰-陈奕迅-1037667.flac"
+2025-07-22T04:16:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:17:40 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T04:18:20 player: played "寂寞的恋人啊(Live)-李宗盛-12804005.flac"
+2025-07-22T04:20:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:22:16 player: played "追光者-岑宁儿-25371883.flac"
+2025-07-22T04:24:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:26:47 player: played "浪人情歌-伍佰_And_China_Blue-60245.flac"
+2025-07-22T04:28:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:31:31 player: played "我是真的爱你-李宗盛-38526355.flac"
+2025-07-22T04:33:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:35:08 player: played "多远都要在一起-G_E_M_邓紫棋-6307329.flac"
+2025-07-22T04:37:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:39:01 player: played "德福巷的酒鬼-黑撒-50096074.flac"
+2025-07-22T04:41:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:41:08 player: played "Yesterday-The_Beatles-63519829.flac"
+2025-07-22T04:43:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T04:45:25 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T04:47:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T11:33:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T11:33:01 player: played "小镇姑娘-陶喆-26034137-2000.flac"
+2025-07-22T13:48:36 exception: Failed to read from file: Is a directory
+2025-07-22T13:50:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T13:54:06 player: played "恋曲1990-罗大佑-2228871-2000.flac"
+2025-07-22T13:56:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T13:57:44 player: played "人生有限公司-五月天-7207080.flac"
+2025-07-22T13:59:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:01:40 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:01:41 player: played "青花瓷-周杰伦-324244-2000.flac"
+2025-07-22T14:01:41 flac: problem reading metadata
+2025-07-22T14:01:41 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-22T14:01:48 player: played "漂洋过海来看你-李宗盛-7031523.flac"
+2025-07-22T14:03:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:05:26 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-22T14:05:47 player: played "祝福-叶蒨文-16932154.flac"
+2025-07-22T14:07:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:10:02 player: played "恋愛サーキュレーション-花澤香菜-648817-2000.flac"
+2025-07-22T14:12:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:14:17 player: played "信仰-张信哲-322009.flac"
+2025-07-22T14:16:17 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:18:14 player: played "艳阳天-窦唯-143866.flac"
+2025-07-22T14:20:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:23:21 player: played "后来的我们(Life_Live)-五月天-69544950.flac"
+2025-07-22T14:25:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:26:57 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:27:40 player: played "浪子回头-茄子蛋-53675362-2000.flac"
+2025-07-22T14:29:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:31:29 player: played "3关于郑州的记忆.wav"
+2025-07-22T14:33:29 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:33:54 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:34:32 player: played "Rock_or_Bust-AC_DC-56222163-2000.flac"
+2025-07-22T14:36:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:37:39 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:37:39 flac: problem reading metadata
+2025-07-22T14:37:39 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-22T14:37:39 ffmpeg/mp3float: invalid new backstep -1
+2025-07-22T14:38:20 player: played "花田错-王力宏-152718-2000.flac"
+2025-07-22T14:40:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:42:45 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-22T14:43:08 player: played "玉蝴蝶-谢霆锋-217136.flac"
+2025-07-22T14:45:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:49:19 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:50:02 player: played "南方姑娘_(Live)-赵雷-41196190-2000.flac"
+2025-07-22T14:52:02 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T14:52:47 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T14:53:33 player: played "理想三旬-陈鸿宇-6572330.flac"
+2025-07-22T14:55:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T20:32:24 player: played "出城-李剑青-24048284.flac"
+2025-07-22T21:16:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T21:19:11 player: played "月亮惹的祸-张宇-158361.flac"
+2025-07-22T21:21:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T21:24:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T23:45:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T23:47:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T23:50:16 player: played "壮志在我胸(Live)-李宗盛-29280429.flac"
+2025-07-22T23:50:31 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-22T23:53:53 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-22T23:54:31 player: played "柳濑小鎮-木村好夫-3770969.flac"
+2025-07-22T23:56:32 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-23T00:13:39 player: played "美丽世界的孤儿-汪峰-62638-2000.flac"
+2025-07-23T00:35:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-23T00:39:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-23T18:26:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-23T18:26:12 player: played "干杯(Life_Live)-五月天-69544944.flac"
+2025-07-24T22:50:19 exception: Failed to read from file: Is a directory
+2025-07-24T22:52:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-24T22:55:07 player: played "钟无艳-谢安琪-3521741.flac"
+2025-07-24T22:57:07 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:22:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:23:45 player: played "单恋高校-陈冠希-78299-2000.flac"
+2025-07-25T00:25:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:27:12 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T00:27:54 player: played "沧海一声笑-罗大佑_黄霑_徐克-29251869-2000.flac"
+2025-07-25T00:29:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:31:16 player: played "How_Deep_is_the_Ocean-Bob_Dylan-23533346.flac"
+2025-07-25T00:33:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:35:54 player: played "给自己的歌-李宗盛-701435-2000.flac"
+2025-07-25T00:37:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:39:27 player: played "活着Viva-谢霆锋-70610986.flac"
+2025-07-25T00:41:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:42:53 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T00:43:35 player: played "Not_Afraid-Eminem-907827-2000.flac"
+2025-07-25T00:45:35 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:47:11 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T00:47:54 player: played "浪子回头-茄子蛋-53675362-2000.flac"
+2025-07-25T00:49:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:52:20 player: played "来自你_来自我_来自他-罗大佑_周华健_李宗盛_赵传-29545089-2000.flac"
+2025-07-25T00:54:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:54:27 player: played "Yesterday-The_Beatles-63519829.flac"
+2025-07-25T00:56:27 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T00:59:20 player: played "爱我还是他-陶喆-103134-2000.flac"
+2025-07-25T01:01:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:02:06 player: played "性空山-陈粒-6410347.mp3"
+2025-07-25T01:04:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:06:54 player: played "融化-梁博-6686314.flac"
+2025-07-25T01:08:54 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:13:16 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:16:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:19:12 player: played "Moonlight_Shadow-Dana_Winner-708770-2000.flac"
+2025-07-25T01:21:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:24:48 player: played "步步-五月天-56218336.flac"
+2025-07-25T01:26:48 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:30:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:33:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T01:34:01 player: played "三十岁的女人-赵雷-5835277-2000.flac"
+2025-07-25T01:36:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:37:49 player: played "3关于郑州的记忆.wav"
+2025-07-25T01:39:49 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:42:12 player: played "Without_Me-Eminem-2386259.flac"
+2025-07-25T01:44:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:48:30 player: played "阿刁-赵雷-16827758-2000.flac"
+2025-07-25T01:50:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:51:24 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T01:52:08 player: played "小酒窝-林俊杰_蔡卓妍-27783249-2000.flac"
+2025-07-25T01:54:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:56:02 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T01:56:21 player: played "New_Boy-房东的猫-186324874-2000.flac"
+2025-07-25T01:58:22 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T01:59:57 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T02:00:41 player: played "春秋-张敬轩-685384-2000.flac"
+2025-07-25T02:02:41 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:04:37 player: played "爱的箴言-罗大佑-58322-2000.flac"
+2025-07-25T02:06:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:09:15 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T02:09:35 player: played "寡妇村传奇_(Live)-周华健-41196390-4000.flac"
+2025-07-25T02:11:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:13:46 player: played "派对动物-五月天-7097026.flac"
+2025-07-25T02:15:46 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:17:14 player: played "Highway_To_Hell-AC_DC-9840269-2000.flac"
+2025-07-25T02:19:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:21:30 player: played "信仰-张信哲-322009.flac"
+2025-07-25T02:23:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:27:53 player: played "花火-汪峰-329077-2000.flac"
+2025-07-25T02:29:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:32:09 player: played "香港地-陈冠希-19249162.flac"
+2025-07-25T02:34:09 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:35:47 player: played "極楽浄土-GARNiDELiA-7221870.flac"
+2025-07-25T02:37:47 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:40:00 player: played "因为单身的缘故-杨宗纬-1080768.flac"
+2025-07-25T02:42:00 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:44:22 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T02:44:23 player: played "月亮惹的祸-张宇-158361.flac"
+2025-07-25T02:44:24 player: played "飘洋过海来看你_(Live)-李宗盛-12804011-2000.flac"
+2025-07-25T02:46:23 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:49:28 player: played "春秋配-吴彤-908705-320.mp3"
+2025-07-25T02:51:28 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:54:04 player: played "花妖-刀郎-288010103-2000.flac"
+2025-07-25T02:56:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T02:59:03 player: played "七里香-周杰伦-94237-2000.flac"
+2025-07-25T03:01:03 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:01:28 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:02:06 player: played "Rock_or_Bust-AC_DC-56222163-2000.flac"
+2025-07-25T03:04:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:08:39 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:09:18 player: played "Hey_Jude-The_Beatles-79261875.flac"
+2025-07-25T03:11:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:12:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:13:19 player: played "征服-柯受良-58218.flac"
+2025-07-25T03:15:19 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:16:56 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:17:37 player: played "在木星_(Live)-朴树-41196001-2000.flac"
+2025-07-25T03:19:37 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:21:45 player: played "爱似水仙-金海心-454680.flac"
+2025-07-25T03:23:45 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:26:34 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:27:12 player: played "MY_ALL-浜崎あゆみ-543883-2000.flac"
+2025-07-25T03:29:12 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:30:39 flac: problem reading metadata
+2025-07-25T03:30:39 ffmpeg/mp3float: Could not update timestamps for skipped samples.
+2025-07-25T03:31:19 player: played "春末的南方城市.wav"
+2025-07-25T03:33:20 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:34:45 ffmpeg/mp3float: Could not update timestamps for discarded samples.
+2025-07-25T03:35:05 player: played "赢在江湖-姜鹏-41370782.flac"
+2025-07-25T03:36:59 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:37:06 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:37:36 player: played "去大理-郝云-5258749.flac"
+2025-07-25T03:39:36 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:42:21 player: played "别怕我伤心-张信哲-78988.flac"
+2025-07-25T03:44:21 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:46:30 player: played "战争-陈冠希_陈奂仁_胡蓓蔚_MC仁-292525-2000.flac"
+2025-07-25T03:48:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:50:53 player: played "派对动物(Life_Live)-五月天-69544953.flac"
+2025-07-25T03:52:53 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:55:29 player: played "突然想到理想这个词-郝云-863073.flac"
+2025-07-25T03:57:30 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T03:59:15 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T03:59:25 player: played "Sugar-Maroon_5-5272489-4000.flac"
+2025-07-25T04:01:26 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:02:52 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T04:03:33 player: played "风吹麦浪-李健-239653-2000.flac"
+2025-07-25T04:05:33 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:06:49 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T04:07:33 player: played "慕容雪-薛凯琪-602239-2000.flac"
+2025-07-25T04:09:34 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:10:44 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T04:11:04 player: played "问_(Live)-李宗盛-12804004-2000.flac"
+2025-07-25T04:13:05 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:15:24 player: played "富士山下-陈奕迅-387111.flac"
+2025-07-25T04:17:24 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:20:03 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T04:20:40 player: played "Don't_Break_My_Heart-黑豹乐队-251929.flac"
+2025-07-25T04:22:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:25:14 player: played "红尘客栈-周杰伦-3195905-2000.flac"
+2025-07-25T04:27:14 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:29:40 player: played "我还年轻_我还年轻_(Live)-周晓鸥_张碧晨-205702121-2000.flac"
+2025-07-25T04:31:40 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:34:42 player: played "过火-张信哲-40831785.flac"
+2025-07-25T04:36:42 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:38:01 player: played "油麻菜籽-李宗盛-1024060.flac"
+2025-07-25T04:40:01 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:42:52 player: played "未来的底片-刀郎-288009909-2000.flac"
+2025-07-25T04:44:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:46:44 player: played "凡人歌-李宗盛-29315289-2000.flac"
+2025-07-25T04:48:44 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:51:04 player: played "Big_Gun-AC_DC-648765.flac"
+2025-07-25T04:53:04 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:54:08 player: played "再见-张震岳-112051-2000.flac"
+2025-07-25T04:56:08 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T04:58:18 player: played "电台情歌-莫文蔚-472149.flac"
+2025-07-25T05:00:18 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T05:01:55 flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+2025-07-25T05:02:39 player: played "演员-薛之谦-7201082-2000.flac"
+2025-07-25T05:04:39 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T05:07:25 player: played "不要说话-陈奕迅-391611.flac"
+2025-07-25T05:07:32 player: played "怕你为自己流泪-窦唯-143846.flac"
+2025-07-25T05:09:25 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T05:10:53 player: played "情非得已-庾澄庆-626201.flac"
+2025-07-25T06:37:52 exception: Failed to commit /home/luck/.config/mpd/state: File exists
+2025-07-25T10:10:15 exception: Failed to commit /home/luck/.config/mpd/state: File exists

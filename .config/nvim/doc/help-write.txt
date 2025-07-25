@@ -1,0 +1,88 @@
+*zh-help-write*
+
+为了方便使用，插件的 Vim 帮助文件应该遵循标准的 Vim 帮助文件格式，除了第一行。如果你正在编写新的帮助文件，最好是复制现有的帮助文件作为模板来使用。
+
+帮助文件的第一行应该使用以下格式：
+>
+	*plugin_name.txt*	{short description of the plugin}
+<
+第一个字段是一个帮助标签， ":help plugin_name" 时会跳转到这里。 这一行中，Tab 后面的内容用简短的方式描述插件的用途。这一行会显示在主帮助文件的 "LOCAL ADDITIONS"（本地扩展）部分中。 你可以在那里检查它是否正确显示： |local-additions|。
+
+如果你想添加版本号或最后修改日期，可以放在第二行，并靠右对齐。
+
+在帮助文件的底部，添加一行Vim modeline 来设置 'textwidth' 和 'tabstop' 选项，并添加 'filetype' 为 "help"。不要在 modline 设置全局选项，因为那可能会导致意料之外的问题。
+
+TAGS（标签）
+
+要定义一个帮助标签，把名称放在两个星号之间
+>
+ (*tag-name*)
+<
+这个 tag-name 应该不同与 Vim 内置帮助标签，最好以插件名作为前缀。 标签通常会在一行中右对齐。
+
+当你引用一个已有的帮助标签并创建一个“超链接”时，把标签名放在两个竖线 | 之间 eg.
+>
+ |help-writing|。
+<
+当你引用一个 Vim 命令时并希望形成超链接，把命令放在两个反引号 /` 中， eg.
+>
+ `:filetype`。
+<
+你会发现它会以代码块形式高亮显示(see below).
+
+当你在帮助文件中引用一个 Vim 选项时，把选项名称放在两个单引号 ' 中， eg.
+>
+ 'statusline'
+<
+当你引用其他技术术语，如文件名或函数参数时，用反引号 /` 包围 eg.
+>
+ `~/.path/to/init.vim`.
+<
+
+HIGHLIGHTING（高亮）
+
+要定义一列标题，在行末添加一个波浪号 ~，前面需要有一个空格。这样这一行就会以不同颜色高亮显示。
+E.g.
+>
+    Column heading ~
+<
+要在帮助文件中分隔不同的章节，从第一列开始放一行等号 =，如下所示：该分隔线会以不同的颜色高亮显示。
+
+
+To quote a block of ex-commands verbatim, place a greater than (>) character
+at the end of the line before the block and a less than (<) character as the
+first non-blank on a line following the block.  Any line starting in column 1
+also implicitly stops the block of ex-commands before it.  E.g. 
+>
+    function Example_Func()
+    echo "Example"
+    endfunction
+<
+
+在 Vim 帮助文件中，以下内容也会被特殊高亮：
+  - a special key name expressed either in <> notation as in <PageDown>, or
+    as a Ctrl character as in CTRL-X
+  - 任何在 {braces} 之间, e.g. {lhs} and {rhs}
+
+The word "Note", "Notes" and similar automagically receive distinctive
+highlighting.  So do these:
+	Todo	something to do
+	Error	something wrong
+
+You can find the details in $VIMRUNTIME/syntax/help.vim
+
+## modeline
+
+Modeline 是 Vim 文件最后一行的特殊注释，用于告诉 Vim：
+“打开这个文件时，帮我设置一些局部选项，比如文字宽度、缩进、文件类型等。”
+
+
+|选项|含义|
+|-|-|
+|tw|textwidth=78，文本宽度限制为 78 个字符|
+|ts|tabstop=8，Tab 显示为 8 个空格宽|
+|noet|noexpandtab，使用真正的 Tab 字符，不用空格代替|
+|ft=help|设置当前文件类型为 help，启用 Vim 帮助语法高亮|
+|norl|noreadonly，避免只读模式（不是必须，但用于防止意外只读）|
+
+vim:tw=78:ts=8:noet:ft=markdown:norl:

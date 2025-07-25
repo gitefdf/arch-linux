@@ -1,0 +1,106 @@
+{
+	"math": {
+		"prefix": "ma",
+		"body": [
+			"$ $1 .$"
+		]
+	},
+	"asc": {
+		"prefix": "Ma",
+		"body": [
+			"\\[",
+			"$1",
+			".\\]"
+		]
+	},
+	"pr": {
+		"prefix": "pr",
+		"body": [
+			"\\begin{pr}",
+			"$1",
+			"\\end{pr}"
+		]
+	},
+	"an": {
+		"prefix": "an",
+		"body": [
+			"\\begin{an}",
+			"$1",
+			"\\end{an}"
+		]
+	},
+	"ex": {
+		"prefix": "ex",
+		"body": [
+			"\\begin{ex}",
+			"$1",
+			"\\end{ex}"
+		]
+	},
+	"beg": {
+		"prefix": "beg",
+		"body": [
+			"\\begin{$1"
+		]
+	},
+	"bf": {
+		"prefix": "bf",
+		"body": [
+			"\\textbf{$1}"
+		]
+	},
+	"下标": {
+		"prefix": "xb",
+		"body": [
+			"_{$1}"
+		]
+	},
+	"上标": {
+		"prefix": "sb",
+		"body": [
+			"^{$1}"
+		]
+	},
+	"解说列表·": {
+		"prefix": "desc",
+		"body": [
+			"\\begin{description}",
+			"    \\item[$1] ",
+			"\\end{description}"
+		]
+	},
+	"代码环境": {
+		"prefix": "listing",
+		"body": [
+			"\\begin{lstlisting}[language=C]",
+			"    $1",
+			"\\end{lstlisting}"
+		]
+	},
+	"列表环境": {
+		"prefix": "tabular",
+		"body": [
+			"\\begin{tabular}{|l|l|}",
+			"\\hline",
+			"$1&\\hline",
+			"\\end{tabular}"
+		]
+	},
+	"tabularx环境": {
+		"prefix": "tabx",
+		"body": [
+			"\\begin{tabularx}{\\textwidth}[t]{|l|X|}",
+			"\\hline",
+			"$1&\\hline",
+			"\\end{tabularx}"
+		]
+	},
+	"普通列表环境": {
+		"prefix": "item",
+		"body": [
+			 "\\begin{itemize}",
+				"\\item[\\textbullet]$1",
+				"\\end{itemize}"
+		]
+	}
+}

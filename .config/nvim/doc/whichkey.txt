@@ -1,0 +1,391 @@
+*zh-which-key*
+
+WhichKey 通过键入时在弹出窗口中显示可用的键绑定来帮助你记住你的 Neovim 键盘映射。
+
+---
+
+## 安装
+
+lazy.nvim
+
+```lua
+{
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  },
+  keys = {
+    {
+      "<leader>?",
+      function()
+        require("which-key").show({ global = false })
+      end,
+      desc = "Buffer Local Keymaps (which-key)",
+    },
+  },
+}
+```
+---
+
+## 配置
+
+如果在某些设备无法正常工作时确保运行 `:checkhealth which-key`
+
+WhichKey 是高度可配置的。展开以查看下面所有默认选项的列表。
+
+
+```lua
+--@class wk.Opts
+local defaults = {
+  --@type false | "classic" | "modern" | "helix"
+  preset = "classic",
+  -- 显示弹窗前的延迟。可以是数字，或返回数字的函数。
+  ---@type number | fun(ctx: { keys: string, mode: string, plugin?: string }):number
+  delay = function(ctx)
+    return ctx.plugin and 0 or 200
+  end,
+  ---@param mapping wk.Mapping
+  filter = function(mapping)
+    -- 示例：排除没有描述的映射
+    -- return mapping.desc and mapping.desc ~= ""
+    return true
+  end,
+  ---  你可以在这里添加任何映射，或者之后使用 `require('which-key').add()`
+  ---@type wk.Spec
+  spec = {},
+  -- 当映射有问题时显示警告
+  notify = true,
+  -- which-key 会自动设置触发器（triggers）
+  -- 你也可以手动设置触发器，具体请查看文档
+  ---@type wk.Spec
+  triggers = {
+    { "<auto>", mode = "nxso" },
+  },
+   -- 启动时隐藏，等待按键后再显示弹窗（仅在启用 xo 模式时生效）
+  ---@param ctx { mode: string, operator: string }
+  defer = function(ctx)
+    return ctx.mode == "V" or ctx.mode == "<C-V>"
+  end,
+  plugins = {
+    marks = true, -- shows a list of your marks on ' and `
+    registers = true, -- shows your registers on " in NORMAL or <C-r> in INSERT mode
+    -- the presets plugin, adds help for a bunch of default keybindings in Neovim
+    -- No actual key bindings are created
+    spelling = {
+      enabled = true, -- enabling this will show WhichKey when pressing z= to select spelling suggestions
+      suggestions = 20, -- how many suggestions should be shown in the list?
+    },
+    presets = {
+      operators = true, -- adds help for operators like d, y, ...
+      motions = true, -- adds help for motions
+      text_objects = true, -- help for text objects triggered after entering an operator
+      windows = true, -- default bindings on <c-w>
+      nav = true, -- misc bindings to work with windows
+      z = true, -- bindings for folds, spelling and others prefixed with z
+      g = true, -- bindings for prefixed with g
+    },
+  },
+  ---@type wk.Win.opts
+  win = {
+    -- don't allow the popup to overlap with the cursor
+    no_overlap = true,
+    -- width = 1,
+    -- height = { min = 4, max = 25 },
+    -- col = 0,
+    -- row = math.huge,
+    -- border = "none",
+    padding = { 1, 2 }, -- extra window padding [top/bottom, right/left]
+    title = true,
+    title_pos = "center",
+    zindex = 1000,
+    -- Additional vim.wo and vim.bo options
+    bo = {},
+    wo = {
+      -- winblend = 10, -- value between 0-100 0 for fully opaque and 100 for fully transparent
+    },
+  },
+  layout = {
+    width = { min = 20 }, -- min and max width of the columns
+    spacing = 3, -- spacing between columns
+  },
+  keys = {
+    scroll_down = "<c-d>", -- binding to scroll down inside the popup
+    scroll_up = "<c-u>", -- binding to scroll up inside the popup
+  },
+  ---@type (string|wk.Sorter)[]
+  --- Mappings are sorted using configured sorters and natural sort of the keys
+  --- Available sorters:
+  --- * local: buffer-local mappings first
+  --- * order: order of the items (Used by plugins like marks / registers)
+  --- * group: groups last
+  --- * alphanum: alpha-numerical first
+  --- * mod: special modifier keys last
+  --- * manual: the order the mappings were added
+  --- * case: lower-case first
+  sort = { "local", "order", "group", "alphanum", "mod" },
+  ---@type number|fun(node: wk.Node):boolean?
+  expand = 0, -- expand groups when <= n mappings
+  -- expand = function(node)
+  --   return not node.desc -- expand all nodes without a description
+  -- end,
+  -- Functions/Lua Patterns for formatting the labels
+  ---@type table<string, ({[1]:string, [2]:string}|fun(str:string):string)[]>
+  replace = {
+    key = {
+      function(key)
+        return require("which-key.view").format(key)
+      end,
+      -- { "<Space>", "SPC" },
+    },
+    desc = {
+      { "<Plug>%(?(.*)%)?", "%1" },
+      { "^%+", "" },
+      { "<[cC]md>", "" },
+      { "<[cC][rR]>", "" },
+      { "<[sS]ilent>", "" },
+      { "^lua%s+", "" },
+      { "^call%s+", "" },
+      { "^:%s*", "" },
+    },
+  },
+  icons = {
+    breadcrumb = "»", -- symbol used in the command line area that shows your active key combo
+    separator = "➜", -- symbol used between a key and it's label
+    group = "+", -- symbol prepended to a group
+    ellipsis = "…",
+    -- set to false to disable all mapping icons,
+    -- both those explicitly added in a mapping
+    -- and those from rules
+    mappings = true,
+    --- See `lua/which-key/icons.lua` for more details
+    --- Set to `false` to disable keymap icons from rules
+    ---@type wk.IconRule[]|false
+    rules = {},
+    -- use the highlights from mini.icons
+    -- When `false`, it will use `WhichKeyIcon` instead
+    colors = true,
+    -- used by key format
+    keys = {
+      Up = " ",
+      Down = " ",
+      Left = " ",
+      Right = " ",
+      C = "󰘴 ",
+      M = "󰘵 ",
+      D = "󰘳 ",
+      S = "󰘶 ",
+      CR = "󰌑 ",
+      Esc = "󱊷 ",
+      ScrollWheelDown = "󱕐 ",
+      ScrollWheelUp = "󱕑 ",
+      NL = "󰌑 ",
+      BS = "󰁮",
+      Space = "󱁐 ",
+      Tab = "󰌒 ",
+      F1 = "󱊫",
+      F2 = "󱊬",
+      F3 = "󱊭",
+      F4 = "󱊮",
+      F5 = "󱊯",
+      F6 = "󱊰",
+      F7 = "󱊱",
+      F8 = "󱊲",
+      F9 = "󱊳",
+      F10 = "󱊴",
+      F11 = "󱊵",
+      F12 = "󱊶",
+    },
+  },
+  show_help = true, -- show a help message in the command line for using WhichKey
+  show_keys = true, -- show the currently pressed key and its label as a message in the command line
+  -- disable WhichKey for certain buf types and file types.
+  disable = {
+    ft = {},
+    bt = {},
+  },
+  debug = false, -- enable wk.log in the current directory
+}
+```
+---
+
+## 映射
+
+WhichKey 自动从keymap的 `desc` 属性中获取键盘映射的描述。因此，对于大多数用例，您无需做什么。
+
+但是，映射规范对于配置那些并不真正作为常规键盘映射存在的组描述和映射仍然很有用。
+
+
+
+> 映射规范在 v3 中发生了变化，因此如果你更新了你的映射 请确保仅使用新映射方法。
+
+映射可以添加为 `opts.spec` config 的一部分，也可以稍后用 `require("which-key").add().` 添加。`wk.add()` 可以从配置文件中的任何位置多次调用。
+
+映射具有以下属性：
+
+- [1]：（） LHS（必需）string
+[2]： （） RHS （可选）：如果存在，它将创建映射string|fun()
+desc： （） 描述（非组需要）string|fun():string
+group： （） 组名称（可选）string|fun():string
+mode：（） 模式（可选，默认为 “n”）string|string[]
+cond： （） 条件启用映射（可选）boolean|fun():boolean
+hidden： （） 隐藏映射（可选）boolean
+icon： （） 图标规范（可选）string|wk.Icon|fun():(wk.Icon|string)
+proxy： （） 代理到另一个映射（可选）string
+expand： （） 嵌套映射（可选）fun():wk.Spec
+对 有效的任何其他选项。这些仅用于创建映射。vim.keymap.set
+
+
+当`desc`,`group`,或 `icon` 是 函数时，每次都会对它们进行计算 此时将显示弹出窗口。
+
+该属性允许创建动态映射。只有 dynamic mapping 支持的函数。 中包括两个示例：expandrhswhich-key.extras
+
+require("which-key.extras").expand.buf：创建数字键到缓冲区映射
+require("which-key.extras").expand.win：创建到窗口映射的数字键
+local wk = require("which-key")
+wk.add({
+  { "<leader>f", group = "file" }, -- group
+  { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find File", mode = "n" },
+  { "<leader>fb", function() print("hello") end, desc = "Foobar" },
+  { "<leader>fn", desc = "New File" },
+  { "<leader>f1", hidden = true }, -- hide this keymap
+  { "<leader>w", proxy = "<c-w>", group = "windows" }, -- proxy to window mappings
+  { "<leader>b", group = "buffers", expand = function()
+      return require("which-key.extras").expand.buf()
+    end
+  },
+  {
+    -- Nested mappings are allowed and can be added in any order
+    -- Most attributes can be inherited or overridden on any level
+    -- There's no limit to the depth of nesting
+    mode = { "n", "v" }, -- NORMAL and VISUAL mode
+    { "<leader>q", "<cmd>q<cr>", desc = "Quit" }, -- no need to specify mode since it's inherited
+    { "<leader>w", "<cmd>w<cr>", desc = "Write" },
+  }
+})
+
+---
+
+## 触发器
+
+有两种方法可以触发 which-key：
+
+- 通过 Trigger Keymap
+- 按 Event for Visual 和 Operator Pending 模式ModeChanged
+
+两者都可以使用 和 进行配置。opts.triggersopts.defer
+
+默认情况下包括 ，其中 将自动为每种模式设置键盘映射触发器，并将在 期间触发。opts.triggers{ "<auto>", mode = "nixsotc" }ModeChanged
+
+注意
+
+永远不会为现有键盘映射创建自动触发器。 这包括每个有效的单键 Neovim 内置映射。 如果要在内置键盘映射上触发，则必须手动添加它。
+
+ triggers = {
+   { "<auto>", mode = "nixsotc" },
+   { "a", mode = { "n", "v" } },
+ }
+提示
+
+要手动设置触发器，您可以设置为：opts.triggers
+
+ triggers = {
+   { "<leader>", mode = { "n", "v" } },
+ }
+对于触发器，您可以配置选项。 当它返回 时，只有在按下其他键后才会显示弹出窗口。 所以 ， 将在按 后显示哪个键，但在 之后不显示哪个键。ModeChangedopts.defertrueyafyay
+
+提示
+
+延迟一些运算符：
+
+---@param ctx { mode: string, operator: string }
+defer = function(ctx)
+  if vim.list_contains({ "d", "y" }, ctx.operator) then
+    return true
+  end
+  return vim.list_contains({ "<C-V>", "V" }, ctx.mode)
+end,
+🎨 图标
+注意
+
+要获得完全支持，您需要安装 mini.icons 或 nvim-web-devicons
+
+有多种方法可以为您的键盘映射设置图标：
+
+如果你使用 lazy.nvim，那么属于某些插件的键盘映射会自动检测一些图标。
+用于决定使用哪个图标的自定义规则
+在你的 Mapping Spec 中，你可以指定在任何级别使用什么图标，例如在节点上，应用于所有 Git 键盘映射。<leader>g
+映射的属性可以是 ，它将用作实际的图标 或对象，它可以具有以下属性：iconstringwk.Icon
+
+icon (string）：要使用的图标（可选）
+hl (string）：用于图标的高亮组（可选）
+color (string）：用于图标的颜色（可选）有效颜色为：、、、、azurebluecyangreengreyorangepurpleredyellow
+cat (string）：图标的类别（可选）有效类别为：、、filefiletypeextension
+name (string）：指定类别中的图标名称（可选）
+提示
+
+如果您不想使用图标，您可以禁用它们 通过设置为 .opts.icons.mappingsfalse
+
+🚀 用法
+当 WhichKey 弹出窗口打开时，您可以使用以下键绑定（它们也显示在屏幕底部）：
+
+点击其中一个键以打开组或执行键绑定
+<esc>取消并关闭弹出窗口
+<bs>上一级
+<c-d>向下滚动
+<c-u>向上滚动
+🐙 Hydra 模式
+Hydra 模式是一种特殊模式，它会使弹出窗口保持打开状态，直到您点击 。<esc>
+
+-- Show hydra mode for changing windows
+require("which-key").show({
+  keys = "<c-w>",
+  loop = true, -- this will keep the popup open until you hit <esc>
+})
+🔥 插件
+WhichKey 包含四个内置插件。
+
+预设
+内置键绑定帮助，用于 、 等。motionstext-objectsoperatorswindowsnavzg
+
+标志着
+显示当您点击 ' 或 ' 时缓冲区本地和全局标记的列表
+
+image
+
+寄存 器
+在 NORMAL 模式或 INSERT 模式下点击 “ 时，显示缓冲区本地和全局寄存器的列表。<c-r>
+
+image
+
+拼写
+启用后，此插件将挂接到 WhichKey 中的建议列表，并将其替换为全屏拼写建议窗口。z=
+
+image
+
+🎨 颜色
+下表显示了为 WhichKey 定义的所有高亮组及其默认链接。
+
+高光组	默认组	描述
+WhichKey 键	功能	
+WhichKeyBorder	浮点边界	which 键窗口的边框
+WhichKeyDesc	标识符	描述
+WhichKeyGroup	关键词	组名称
+WhichKeyIcon 图标	@markup.link	图标
+WhichKeyIconAzure	功能	
+WhichKeyIconBlue	诊断信息	
+WhichKeyIconCyan	诊断提示	
+WhichKeyIconGreen	DiagnosticOk	
+WhichKeyIconGrey	正常	
+哪个KeyIconOrange	诊断警告	
+WhichKeyIconPurple	不断	
+WhichKeyIconRed	DiagnosticError （诊断错误）	
+WhichKeyIconYellow	诊断警告	
+WhichKeyNormal	法线浮点数	在哪个键窗口中正常
+WhichKeySeparator	评论	键与其描述之间的分隔符
+WhichKeyTitle	浮点标题	which-key 窗口的标题
+哪个键值	评论	插件的值（如 Mark、Registers 等）
+
+vim:ft=markdown:norl:

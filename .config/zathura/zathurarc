@@ -1,0 +1,483 @@
+
+set font "Source Han Sans CN Bold 15"
+
+set synctex "true"
+
+set guioptions " 'v' 's' "
+
+set synctex-editor-command "nvim --headless -c \"VimtexInverseSearch %{line}:%{column} '%{input}'\""
+
+set adjust-open "best-fit" 
+
+set selection-clipboard "clipboard"
+
+set recolor-reverse-video true
+
+
+set scroll-step 200
+set default-fg                rgba(205,214,244,1)
+set default-bg 			          rgba(30,30,46,1)
+
+set completion-bg		          rgba(49,50,68,1)
+set completion-fg		          rgba(205,214,244,1)
+set completion-highlight-bg	  rgba(87,82,104,1)
+set completion-highlight-fg	  rgba(205,214,244,1)
+set completion-group-bg		    rgba(49,50,68,1)
+set completion-group-fg		    rgba(137,180,250,1)
+
+set statusbar-fg		          rgba(205,214,244,1)
+set statusbar-bg		          rgba(49,50,68,1)
+
+set notification-bg		        rgba(49,50,68,1)
+set notification-fg		        rgba(205,214,244,1)
+set notification-error-bg	    rgba(49,50,68,1)
+set notification-error-fg	    rgba(243,139,168,1)
+set notification-warning-bg	  rgba(49,50,68,1)
+set notification-warning-fg	  rgba(250,227,176,1)
+
+set inputbar-fg			          rgba(205,214,244,1)
+set inputbar-bg 		          rgba(49,50,68,1)
+
+set recolor                   true
+set recolor-lightcolor		    rgba(30,30,46,1)
+set recolor-darkcolor		      rgba(205,214,244,1)
+
+set index-fg			            rgba(205,214,244,1)
+set index-bg			            rgba(30,30,46,1)
+set index-active-fg		        rgba(205,214,244,1)
+set index-active-bg		        rgba(49,50,68,1)
+
+set render-loading-bg		      rgba(30,30,46,1)
+set render-loading-fg		      rgba(205,214,244,1)
+
+set highlight-color		        rgba(87,82,104,0.5) # 定义高亮色
+set highlight-fg              rgba(245,194,231,0.5)
+set highlight-active-color	  rgba(245,194,231,0.5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # 中止搜索时是否清除搜索结果
+# set abort-clear-search true
+#
+# # 启动时自动适应窗口模式：best-fit 或 width
+# set adjust-open "best-fit"
+#
+# # 是否在翻页时保持每行显示的页数
+# set advance-pages-per-row false
+#
+# # 是否在每次翻页时保存历史，而不是只在关闭时保存
+# set continuous-hist-save false
+#
+# # 使用哪种数据库：plain（旧）、sqlite、null（不保存）
+# set database "plain"
+#
+# # 是否通过 D-Bus 命令激活窗口
+# set dbus-raise-window true
+#
+# # 是否启用 D-Bus 服务（若禁用，将无法使用 SyncTeX）
+# set dbus-service true
+#
+# # 是否用双击链接来跳转（false 为单击）
+# set double-click-follow true
+#
+# # 用于监听文件更改的后端：glib、signal 或 noop（不监听）
+# set filemonitor "glib"
+#
+# # 每行页数对应的第一页在哪一列显示（默认 1:2）
+# set first-page-column "1:2"
+#
+# # 当前高亮元素（如搜索结果）的颜色
+# set highlight-active-color "rgba(0,188,0,0.5)"
+#
+# # 高亮区域的颜色（如搜索结果）
+# set highlight-color "rgba(159,251,0,0.5)"
+#
+# # 高亮区域中文字的颜色
+# set highlight-fg "rgba(0,0,0,0.5)"
+#
+# # 高亮时按住哪个键拖动鼠标：shift、ctrl 或 alt
+# set highlighter-modifier "shift"
+#
+# # 是否启用增量搜索（边打字边查找）
+# set incremental-search true
+#
+# # 索引模式下选中项的背景颜色
+# set index-active-bg "#9FBC00"
+#
+# # 索引模式下选中项的前景色
+# set index-active-fg "#232323"
+#
+# # 索引模式的背景颜色
+# set index-bg "#232323"
+#
+# # 索引模式的前景颜色
+# set index-fg "#DDDDDD"
+#
+# # 跳转列表的最大容量
+# set jumplist-size 2000
+#
+# # 跳转到内部链接是否对齐左边
+# set link-hadjust true
+#
+# # 跳转链接是否允许改变缩放级别
+# set link-zoom true
+#
+# # 是否关闭搜索结果高亮
+# set nohlsearch false
+#
+# # 是否总是打开第一页（false 表示跳转到上次位置）
+# set open-first-page false
+#
+# # 页面缓存大小（单位为页数）
+# set page-cache-size 15
+#
+# # 页面之间的间距（像素）
+# set page-padding 1
+#
+# # 多列模式中，是否从右侧开始显示页面
+# set page-right-to-left false
+#
+# # 缩略图最大缓存尺寸（单位为字节，默认 4MB）
+# set page-thumbnail-size 4194304
+#
+# # 每行显示的页面数
+# set pages-per-row 1
+#
+# # 是否开启重着色（护眼模式）
+# set recolor false
+#
+# # 护眼模式下是否调整亮度
+# set recolor-adjust-lightness false
+#
+# # 护眼模式中“深色”的颜色值
+# set recolor-darkcolor "#FFFFFF"
+#
+# # 护眼模式下是否保持原始色调
+# set recolor-keephue false
+#
+# # 护眼模式中“浅色”的颜色值
+# set recolor-lightcolor "#000000"
+#
+# # 护眼模式下是否保留原始图片颜色
+# set recolor-reverse-video false
+#
+# # 页面加载时是否显示 “Loading...” 字样
+# set render-loading true
+#
+# # “Loading...” 的背景颜色
+# set render-loading-bg "#FFFFFF"
+#
+# # “Loading...” 的前景颜色
+# set render-loading-fg "#000000"
+#
+# # 全页滚动后，保留多少当前页面的可视区域（比例）
+# set scroll-full-overlap 0
+#
+# # 横向滚动单位（像素，-1 表示自动）
+# set scroll-hstep -1
+#
+# # 纵向滚动单位（像素）
+# set scroll-step 40
+#
+# # 半页或整页滚动是否考虑页面边界
+# set scroll-page-aware false
+#
+# # 是否从第一页滚动到最后一页（循环）
+# set scroll-wrap false
+#
+# # 搜索结果是否水平居中
+# set search-hadjust true
+#
+# # 鼠标选中文本复制到哪个剪贴板：clipboard 或 primary
+# set selection-clipboard "primary"
+#
+# # 选中文本后是否显示提示
+# set selection-notification true
+#
+# # 签名错误时显示的背景颜色
+# set signature-error-color "rgba(92%,11%,14%,0.9)"
+#
+# # 签名成功时显示的背景颜色
+# set signature-success-color "rgba(18%,80%,33%,0.9)"
+#
+# # 签名警告时显示的背景颜色
+# set signature-warning-color "rgba(100%,84%,0%,0.9)"
+#
+# # 是否在文件补全中显示目录
+# set show-directories true
+#
+# # 是否显示隐藏文件和目录
+# set show-hidden false
+#
+# # 最近文件显示个数，负数为无限，0 为不显示
+# set show-recent 10
+#
+# # 是否显示 PDF 中的签名信息
+# set show-signature-information false
+#
+# # 状态栏中是否只显示文件名（不带路径）
+# set statusbar-basename false
+#
+# # 状态栏中是否将 $HOME 显示为 ~
+# set statusbar-home-tilde false
+#
+# # 状态栏中是否显示当前页数百分比
+# set statusbar-page-percent false
+#
+# # 是否启用 SyncTeX 反向搜索
+# set synctex true
+#
+# # 反向 SyncTeX 所需的按键（左键配合使用）：shift、ctrl、alt
+# set synctex-edit-modifier "ctrl"
+#
+# # 反向 SyncTeX 执行的编辑器命令（例如：nvim --remote +%{line} %{file}）
+# set synctex-editor-command ""
+#
+# # 默认是否垂直居中页面
+# set vertical-center false
+#
+# # 是否根据第一页生成窗口图标
+# set window-icon-document false
+#
+# # 窗口标题是否只显示文件名
+# set window-title-basename false
+#
+# # 窗口标题中是否将 $HOME 显示为 ~
+# set window-title-home-tilde false
+#
+# # 窗口标题是否显示当前页码
+# set window-title-page false
+#
+# # 缩放时是否水平居中
+# set zoom-center false
+#
+# # 最大缩放百分比
+# set zoom-max 1000
+#
+# # 最小缩放百分比
+# set zoom-min 10
+#
+# # 每次缩放改变的百分比
+# set zoom-step 10
+
+
+
+# # 是否在中断搜索时清除搜索结果，布尔值，默认 true
+# abort-clear-search true
+#
+# # 文档加载时自动调整模式，可能值："best-fit" 或 "width"，默认 "best-fit"
+# adjust-open best-fit
+#
+# # 翻页时是否遵守每行页面数设置，布尔值，默认 false
+# advance-pages-per-row false
+#
+# # 是否在每页切换时保存历史，布尔值，默认 false
+# continuous-hist-save false
+#
+# # 书签和输入历史使用的数据库后端，可能值："plain"（已弃用）、"sqlite"、"null"，默认 "plain"
+# database plain
+#
+# # 是否通过 D-Bus 命令时将窗口置顶，布尔值，默认 true
+# dbus-raise-window true
+#
+# # 是否启用 D-Bus 服务，布尔值，默认 true
+# dbus-service true
+#
+# # 双击或单击链接时是否跳转，布尔值，默认 true
+# double-click-follow true
+#
+# # 用于检测文件变化的文件监控后端，可能值："glib"、"signal"、"noop"，默认 "glib"
+# filemonitor glib
+#
+# # 第一页显示的列号配置，格式如 "1:2"，默认 "1:2"
+# first-page-column 1:2
+#
+# # 当前选中的高亮颜色，默认 "rgba(0,188,0,0.5)"
+# highlight-active-color rgba(0,188,0,0.5)
+#
+# # 高亮文档部分的颜色，默认 "rgba(159,251,0,0.5)"
+# highlight-color rgba(159,251,0,0.5)
+#
+# # 高亮文本颜色，如链接数字，默认 "rgba(0,0,0,0.5)"
+# highlight-fg rgba(0,0,0,0.5)
+#
+# # 绘制高亮时需与左键一起按的修饰键，可能值："shift"、"ctrl"、"alt"，默认 "shift"
+# highlighter-modifier shift
+#
+# # 是否启用增量搜索（边输入边搜索），布尔值，默认 true
+# incremental-search true
+#
+# # 索引模式下选中元素的背景颜色，默认 "#9FBC00"
+# index-active-bg #9FBC00
+#
+# # 索引模式下选中元素的前景色，默认 "#232323"
+# index-active-fg #232323
+#
+# # 索引模式背景色，默认 "#232323"
+# index-bg #232323
+#
+# # 索引模式前景色，默认 "#DDDDDD"
+# index-fg #DDDDDD
+#
+# # 跳转列表最大记录数，整数，默认 2000
+# jumplist-size 2000
+#
+# # 是否允许左对齐内部链接，布尔值，默认 true
+# link-hadjust true
+#
+# # 是否允许跟随链接时调整缩放，布尔值，默认 true
+# link-zoom true
+#
+# # 是否启用搜索结果高亮，布尔值，默认 false
+# nohlsearch false
+#
+# # 是否总是从第一页打开文档，布尔值，默认 false
+# open-first-page false
+#
+# # 页面缓存最大页数，整数，默认 15
+# page-cache-size 15
+#
+# # 页面间距（像素），整数，默认 1
+# page-padding 1
+#
+# # 多栏模式下页面是否从右侧开始，布尔值，默认 false
+# page-right-to-left false
+#
+# # 缩略图最大尺寸（像素），整数，默认 4194304（4MB）
+# page-thumbnail-size 4194304
+#
+# # 每行渲染的页面数量，整数，默认 1
+# pages-per-row 1
+#
+# # 是否启用重绘色，布尔值，默认 false
+# recolor false
+#
+# # 是否调整亮度，布尔值，默认 false
+# recolor-adjust-lightness false
+#
+# # 重绘色中的暗色表示值，默认 "#FFFFFF"
+# recolor-darkcolor #FFFFFF
+#
+# # 是否保持原始色相，布尔值，默认 false
+# recolor-keephue false
+#
+# # 重绘色中的亮色表示值，默认 "#000000"
+# recolor-lightcolor #000000
+#
+# # 是否反转颜色，布尔值，默认 false
+# recolor-reverse-video false
+#
+# # 是否在渲染页面时显示“Loading...”文本，布尔值，默认 true
+# render-loading true
+#
+# # “Loading...”文本背景色，默认 "#FFFFFF"
+# render-loading-bg #FFFFFF
+#
+# # “Loading...”文本前景色，默认 "#000000"
+# render-loading-fg #000000
+#
+# # 滚动一整页后当前视区可见比例，浮点数，默认 0
+# scroll-full-overlap 0
+#
+# # 水平滚动步长，浮点数，默认 -1
+# scroll-hstep -1
+#
+# # 滚动步长，浮点数，默认 40
+# scroll-step 40
+#
+# # 滚动是否停止于页面边界，布尔值，默认 false
+# scroll-page-aware false
+#
+# # 是否开启滚动环绕，布尔值，默认 false
+# scroll-wrap false
+#
+# # 是否水平居中搜索结果，布尔值，默认 true
+# search-hadjust true
+#
+# # 鼠标选中内容写入的剪贴板类型，可能值："clipboard" 或 "primary"，默认 "primary"
+# selection-clipboard primary
+#
+# # 选中文本后是否显示通知，布尔值，默认 true
+# selection-notification true
+#
+# # 签名错误时显示的背景色，默认 "rgba(92%,11%,14%,0.9)"
+# signature-error-color rgba(92%,11%,14%,0.9)
+#
+# # 签名有效时显示的背景色，默认 "rgba(18%,80%,33%,0.9)"
+# signature-success-color rgba(18%,80%,33%,0.9)
+#
+# # 签名警告时显示的背景色，默认 "rgba(100%,84%,0%,0.9)"
+# signature-warning-color rgba(100%,84%,0%,0.9)
+#
+# # 是否在自动完成中显示目录，布尔值，默认 true
+# show-directories true
+#
+# # 是否显示隐藏文件，布尔值，默认 false
+# show-hidden false
+#
+# # 自动完成中显示最近文件数，整数，默认 10，负数无上限，0 不显示
+# show-recent 10
+#
+# # 是否显示签名附加信息，布尔值，默认 false
+# show-signature-information false
+#
+# # 状态栏中显示文件的基本名，布尔值，默认 false
+# statusbar-basename false
+#
+# # 状态栏中路径使用 ~ 代替 $HOME，布尔值，默认 false
+# statusbar-home-tilde false
+#
+# # 状态栏显示当前页数百分比，布尔值，默认 false
+# statusbar-page-percent false
+#
+# # 是否启用 SyncTeX 向后同步，布尔值，默认 true
+# synctex true
+#
+# # SyncTeX 触发向后同步所需修饰键，可能值："shift"、"ctrl"、"alt"，默认 "ctrl"
+# synctex-edit-modifier ctrl
+#
+# # SyncTeX 向后同步执行的命令，字符串，默认空
+# synctex-editor-command
+#
+# # 是否默认垂直居中页面，布尔值，默认 false
+# vertical-center false
+#
+# # 是否根据第一页更新窗口图标，布尔值，默认 false
+# window-icon-document false
+#
+# # 窗口标题使用文件基本名，布尔值，默认 false
+# window-title-basename false
+#
+# # 窗口标题中路径使用 ~ 代替 $HOME，布尔值，默认 false
+# window-title-home-tilde false
+#
+# # 窗口标题显示页码，布尔值，默认 false
+# window-title-page false
+#
+# # 缩放是否水平居中，布尔值，默认 false
+# zoom-center false
+#
+# # 缩放最大百分比，整数，默认 1000
+# zoom-max 1000
+#
+# # 缩放最小百分比，整数，默认 10
+# zoom-min 10
+#
+

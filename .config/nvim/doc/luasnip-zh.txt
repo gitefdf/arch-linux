@@ -1,0 +1,430 @@
+*zh-luasnip*
+
+# LuaSnip
+
+LuaSnip 是一个完全用 lua 编写的代码片段引擎。
+它具有以下强大功能：根据用户输入，插入文本 (`luasnip-function-node`) 或节点 (`luasnip-dynamic-node`)、
+解析 LSP 语法和切换节点 (`luasnip-choice-node`) 等。关于映射和安装等基本设置，请查看 [README](https://github.com/L3MON4D3/LuaSnip/blob/master/README.md) 文件。
+
+此帮助文档中所有代码片段假定：
+
+```lua
+local ls = require("luasnip")
+local s = ls.snippet
+local sn = ls.snippet_node
+local isn = ls.indent_snippet_node
+local t = ls.text_node
+local i = ls.insert_node
+local f = ls.function_node
+local c = ls.choice_node
+local d = ls.dynamic_node
+local r = ls.restore_node
+local events = require("luasnip.util.events")
+local ai = require("luasnip.nodes.absolute_indexer")
+local extras = require("luasnip.extras")
+local l = extras.lambda
+local rep = extras.rep
+local p = extras.partial
+local m = extras.match
+local n = extras.nonempty
+local dl = extras.dynamic_lambda
+local fmt = require("luasnip.extras.fmt").fmt
+local fmta = require("luasnip.extras.fmt").fmta
+local conds = require("luasnip.extras.expand_conditions")
+local postfix = require("luasnip.extras.postfix").postfix
+local types = require("luasnip.util.types")
+local parse = require("luasnip.util.parser").parse_snippet
+local ms = ls.multi_snippet
+local k = require("luasnip.nodes.key_indexer").new_key
+```
+
+正如 luasnip-loaders-lua 所提：
+
+默认使用来自 [`luasnip.config.snip_env`](https://github.com/L3MON4D3/LuaSnip/blob/master/lua/luasnip/config.lua#L22-L48) 的名称,但也可以在`setup`中设置`snip_env`自定义。
+
+此外注意,虽然本文档假定`ls`定义为`require("luasnip")`,但在默认提供的变量中并未提供。
+
+---
+
+## Basics *zh-luasnip-basics*
+
+在 LuaSnip 中，代码片段由节点 nodes 组成。节点包括：
+
+- textNode：静态文本。
+- insertNode：可编辑的文本。
+- functionNode：可从其他节点的内容生成的文本。
+- 其他节点
+  - choiceNode：在两个节点（或更多节点）之间进行选择。
+  - restoreNode：存储和恢复输入到节点。
+- dynamicNode：基于输入生成的节点。
+
+创建代码片段通常使用 `s(trigger:string, nodes:table)` 形式的函数。
+在 luasnip-snippets 一节有更详细解释，大意是它会创建一个代码段，包含节点中指定的各个节点。
+当调用`ls.expend`时，如果光标前的文本与`trigger`匹配这个代码段会插入到缓冲区。
+
+---
+
+### Jump-Index *zh-luasnip-basics-jump-index*
+
+所有可以跳转的节点(insertNode, choiceNode, dynamicNode, restoreNode, snippetNode)，都需要一个跳转索引（jump-index），让 LuaSnip 应该这些节点按什么顺序访问（跳转）。
+
+```lua
+s("trig", {
+    i(1), t"text", i(2), t"text again", i(3)
+})
+```
+
+这些索引不会像 TextMate-snippets（`"$1 ${2: $3 $4}"`） 中那样贯穿整个 snippet ，在每个嵌套的 snippetNode 中会以1重新开始：
+
+```lua
+s("trig", {
+    i(1), t" ",
+    sn(2, {
+        t" ", i(1),
+        t" ", i(2)
+    })
+})
+```
+大致等同于给出的 TextMate 代码段。
+
+---
+
+## Adding Snippets *zh-luasnip-basics-adding-snippets*
+
+The snippets for a given filetype have to be added to LuaSnip via `ls.add_snippets(filetype, snippets)`. Snippets that should be accessible globally (in all filetypes) have to be added to the special filetype `all`.
+
+```lua
+ls.add_snippets("all", {
+ s("ternary", {
+  -- equivalent to "${1:cond} ? ${2:then} : ${3:else}"
+  i(1, "cond"), t(" ? "), i(2, "then"), t(" : "), i(3, "else")
+ })
+})
+```
+
+It is possible to make snippets from one filetype available to another using `ls.filetype_extend`, more info on that in the section [API](https://github.com/L3MON4D3/LuaSnip/blob/master/DOC.md#api-2).
+
+---
+
+### Snippet Insertion *zh-luasnip-basics-snippet-insertion*
+
+当一个新 snippet 展开时，它可以以各种方式连接到缓冲区中已经展开的 snippet 。首先，LuaSnip 区分 root-snippets 和 child-snippets 。子代码段是嵌套在其他代码段中，
+
+
+应可全局访问（针对所有文件类型）的片段必须添加到特殊文件类型 `all`。
+
+```lua
+ls.add_snippets("all", {
+    s("ternary", {
+        -- equivalent to "${1:cond} ? ${2:then} : ${3:else}"
+        i(1, "cond"), t(" ? "), i(2, "then"), t(" : "), i(3, "else")
+    })
+})
+```
+
+还可以使用 `ls.filetype_extend` 将一种文件类型的代码片段提供给另一种文件类型，更多参见 [api](https://zjp-cn.github.io/neovim0.6-blogs/nvim/luasnip/doc1.html#api)。
+
+---
+
+## Node *zh-luasnip-node*
+
+每个节点都接受一个可选的参数列表作为它的最后一个参数。
+有一些通用的选项（在这里列出），也有一些仅适用于某些节点，
+（比如`user_args`只在`luasnip-function-node`中生效）。
+如果接受的选项不是所有节点通用时会说明。
+
+Common opts:
+
+- `node_ext_opts`和`merge_node_ext_opts`
+  - 控制节点的`ext_opts`（一般是高亮），详情见 luasnip-ext_opts。
+- `key`
+  - 可以引用节点。
+
+---
+
+### API *zh-luasnip-node-api*
+
+- `get_jump_index()`:
+  - 返回节点的跳跃索引。如果节点没有跳跃索引，返回空值。
+- `get_buf_position(opts) -> {from_position, to_position}`
+  - 12
+
+---
+
+## Snippets *zh-luasnip-snippets*
+
+定义代码片段的最直接方式是`s`：
+
+```lua
+s({trig="trigger"}, {})
+```
+
+（这段代码除了是一个最小的例子外，毫无用处。）
+
+`s(context, nodes, opts)` -> snippet
+
+- context:table or a string
+  - 传入字符串等价传如如下 table:`{trig = context}`
+    - trig:string
+      - 代码段触发器。当调用`ls.expand()`时，如果光标前（即左边）的文本与 trig 匹配，此代码段会展开。默认需完全匹配，可以通过 trigEngine 修改。
+    - name：string
+      - 用于例如 nvim-compe 识别代码段。
+    desc(或 decr):string
+      - 代码段描述，-分割或多行 table。
+    - wordTrig:boolean
+      - 如果为 true 只有当光标前的完整单词匹配 trigger 代码段才会展开。
+    - regTrig:boolean
+      - 是否以 lua 模式解释代码段。默认 false。建议设置 trigEngine 为 pattern。
+    - trigEngine:function|string
+      - 1
+
+
+
+---
+
+## TextNode *zh-luasnip-textnode*
+
+最简单的节点类型；只是文本。
+
+```lua
+s("trigger", { t("Wow! Text!") })
+```
+
+此片断将展开为：
+
+Wow! Text!⎵
+
+其中，⎵ 是光标。多行字符串可以通过传递行表而不是字符串来定义：
+
+多行 strings 通过传递一个 table of lines 而不是一个 string 定义。
+
+```lua
+s("trigger", {
+    t({"line!", "Another line."})
+})
+```
+- t(text, node_ext_opts)
+  - text: string or string[]
+  - node_opts: table, see luasnip-node
+
+---
+
+## InsertNode *zh-luasnip-insertnode*
+
+这种节点包含可编辑的文本，并且可以跳进和跳出（例如传统的占位符，像 textmate-snippets 中的 $1）。
+
+该功能最好通过一个示例进行演示：
+
+```lua
+s("trigger", {
+    t({"展开后，光标位于此 ->"}), i(1),
+    t({"", "二行文本，一次跳转后，光标位于此 ->"}), i(2),
+    t({"", "再次跳转后，代码段在这里退出 ->"}), i(0),
+})
+```
+
+Insert Node 会按照 1,2,3,...,n,0 的顺序跳转。（跳转点0必须属于一个 insertNode!）InsertNode 的跳转顺序如下：
+
+1. 展开后，光标位于 InstertNode 1
+2. 跳跃后，将位于 InsertNode 2
+3. 再次跳跃后，将位于 InsertNode 0
+
+
+如果在片段中未找到第 0 个 InsertNode，则会在所有其他节点之后自动插入一个。
+
+跳转的顺序不必遵循节点的文本顺序：
+
+```lua
+s("trigger", {
+    t({"After jumping forward once, cursor is here ->"}), i(2),
+    t({"", "After expanding, the cursor is here ->"}), i(1),
+    t({"", "After jumping once more, the snippet is exited there ->"}), i(0),
+})
+```
+
+上述片段的行为如下所示：
+
+1. 展开后，光标位于 InsertNode 1
+2. 跳跃后，将位于 InsertNode 2
+3. 再次跳跃后，将位于 InsertNode 0
+
+一个重要的细节是跳转索引会在嵌套的代码段中从1重新开始。（因为 LuaSnip 与其他代码片段引擎不同）
+
+```lua
+s("trigger", {
+    i(1, "First jump"),
+    t(" :: "),
+    sn(2, {
+        i(1, "Second jump"),
+        t" : ",
+        i(2, "Third jump")
+    })
+})
+```
+
+与 TextMate 语法相反，在 TextMate 语法中，跳转点是全局的：
+
+```
+${1:First jump} :: ${2: ${3:Third jump} : ${4:Fourth jump}}
+```
+
+当然，这不是完全相同的片段，但尽可能接近。
+
+重新开始的规则仅在 Lua 中定义片段时生效，上面的 TextMate 片段在 LuaSnip 中解析会正确展开。
+
+`i(jump_index, text, node_opts)`
+
+- jump_index
+  - number,决定节点何时被跳转到（参见 zh-luasnip-basics-jump-index ）。
+- text
+  - string or string[],a single line 用于单行；a list 用于多行。
+- node_opts
+  - table, 参见 luasnip-node
+
+如果跳转索引是0，替换它的 text（即用 i(0, "text") 的形式）会导致该文字不包含在 insertNode 里面
+
+---
+
+## FunctionNode *zh-luasnip-functionnode*
+
+函数节点基于其他节点内容使用用户自定义函数插入文本。
+
+```lua
+local function fn(
+    args,     -- text from i(2) in this example i.e. { { "456" } }
+    parent,   -- parent snippet or parent node
+    user_args -- user_args from opts.user_args 
+    )
+    return '[' .. args[1][1] .. user_args .. ']'
+end
+    
+s("trig", {
+    i(1), t '<-i(1) ',
+    f(fn,  -- callback (args, parent, user_args) -> string
+        {2}, -- node indice(s) whose text is passed to fn, i.e. i(2)
+        { user_args = { "user_args_value" }} -- opts
+    ),
+    t ' i(2)->', i(2), t '<-i(2) i(0)->', i(0)
+})
+```
+
+`f(fn, argnode_references, node_opts)`
+
+- fn:function(argnode_text, parent,user_args1,...,user_argsn)
+  - argnode_text:string`[][]`，包含文本，例如（{{line1}, {line1, line2}}）。代码段缩进从第一行后移除。
+- parent functionNode 的直接父节点，
+## Reference *zh-luasnip-node-reference*
+## ChoiceNode *zh-luasnip-choicenode*
+## SnippetNode *zh-luasnip-snippetnode*
+## IndentSnippetNode *zh-luasnip-indentsnippetnode*
+## DynamicNode *zh-luasnip-dynamicnode*
+## RestoreNode *zh-luasnip-restorenode*
+## Key Indexer *zh-luasnip-key-indexer*
+## Absolute Indexer *zh-luasnip-absolute-indexer*
+## MultiSnippet *zh-luasnip-multisnippet*
+
+---
+
+## Extras *zh-luasnip-extras*
+
+### Lambda *zh-luasnip-extras-lambda*
+
+`l(lambda, argnodes)`
+
+### Match *zh-luasnip-extras-match*
+### Repeat *zh-luasnip-extras-repeat*
+### Partial *zh-luasnip-extras-partial*
+### Nonempty *zh-luasnip-extras-nonempty*
+### Dynamic *zh-luasnip-extras-dynamic-lambda*
+
+---
+
+### fmt *zh-luasnip-extras-fmt*
+
+编写代码段可能很繁琐，尤其是每隔一个节点就可能是一个 textNode，用于在两个更复杂节点间插入少量字符。
+
+fmt 使用更易读的方式定义代码段，正如其名字所暗示，它借用 format 功能（语法接近与 python 的 str.format）。
+
+fmt 接受 a string 和 a table of nodes 。字符串内的每一对分隔符（占位符）会被表内一个节点替换，而不在分隔符内的文本会转换为 textNode。
+
+```lua
+ls.add_snippets("all", {
+  -- 重要! fmt 不返回代码段，它返回一个节点表。
+  s("example1", fmt("just an {iNode1}", {
+    iNode1 = i(1, "example")
+  })),
+  s("example2", fmt([[
+  if {} then
+    {}
+  end
+  ]], {
+    -- i(1) is at nodes[1], i(2) at nodes[2].
+    i(1, "not now"), i(2, "when")
+  })),
+  s("example3", fmt([[
+  if <> then
+    <>
+  end
+  ]], {
+    -- i(1) is at nodes[1], i(2) at nodes[2].
+    i(1, "not now"), i(2, "when")
+  }, {
+    delimiters = "<>"
+  })),
+})
+```
+
+这里有一个重要细节：分隔符位置在任何情况下都不会对应于节点的跳跃索引。
+
+`fmt(format:string, nodes:table of nodes, opts:table|nil) -> table of nodes`
+
+- format
+  - string.出现的`{<somekey>}`（{}可自定义）会被`[<somekey>]`（应该是节点）的内容替换。分隔符周围的文本会转换为 textNode。
+  - 转移分隔符，重复使用`{{`
+  - 如果`{}`无键名，它们会自动编号，`{} ? {} : {}`变为`{1} ? {2} : {3}`，而`{} ? {3} : {}`变为`{1} ? {3} : {4}`（每个占位符的数字重新编号）
+  - 如果某个键在 format 中出现多次，`[<duplicate_key>]`中的节点会在第一次使用时被插入，后续出现该键会复制该节点。
+- nodes：节点表。
+- opts：可选参数
+  - delimiters：字符串。改变`{}` 为其他。
+  - strict：警告未使用节点（默认开启）。
+  - 12
+
+还有`require("luasnip.extras.fmt").fmta`。它与 fmt 唯一不同是：fmta 使用<>作为默认分隔符。
+
+---
+
+### Conditions *zh-luasnip-extras-conditions*
+### On The Fly-Snippets *zh-luasnip-extras-on-the-fly-snippets*
+### select_choice *zh-luasnip-extras-select-choice*
+### Filetype-Function *zh-luasnip-extras-filetype-functions*
+### Postfix-Snippet *zh-luasnip-extras-postfix-snippet*
+### Treesitter-Postfix-Snippet *zh-luasnip-extras-treesitter-postfix-snippet*
+### Snippet List *zh-luasnip-extras-snippet-list*
+### Snippet Location *zh-luasnip-extras-snippet-location*
+### Extend Decorator *zh-luasnip-extend-decorator*
+### LSP-Snippets *zh-luasnip-lsp-snippets*
+### SnipMate Parser *zh-luasnip-lsp-snippets-snipmate-parser*
+### Transformations *zh-luasnip-lsp-snippets-transformations*
+## Variables *zh-luasnip-variables*
+### Environment *zh-luasnip-variables-environment-namespaces*
+### LSP-*zh-luasnip-variables-lsp-variables*
+## Loaders *zh-luasnip-loaders*
+### Snippet-*zh-luasnip-loaders-snippet-specific-filetypes*
+### VS-*zh-luasnip-loaders-vs-code*
+### SNIPMATE *zh-luasnip-loaders-snipmate*
+### Lua *zh-luasnip-loaders-lua*
+### edit_snippets *zh-luasnip-loaders-edit_snippets*
+## SnippetProxy *zh-luasnip-snippetproxy*
+## ext_opts *zh-luasnip-ext_opts*
+## Docstrings *zh-luasnip-docstrings*
+## Docstring-*zh-luasnip-docstring-cache*
+## Events *zh-luasnip-events*
+## Cleanup *zh-luasnip-cleanup*
+## Logging *zh-luasnip-logging*
+## Source *zh-luasnip-source*
+## Selection *zh-luasnip-selection*
+## Config-*zh-luasnip-config-options*
+## Troubleshooting *zh-luasnip-troubleshooting*
+  - Adding Snippets                  |luasnip-troubleshooting-adding-snippets|
+32. API                                                          |luasnip-api|
+vim:ft=markdown:norl:

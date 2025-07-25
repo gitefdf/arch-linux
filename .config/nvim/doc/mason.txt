@@ -1,0 +1,181 @@
+*zh-mason*
+
+## 简介
+
+mason.nvim 是一个 Neovim 插件，可以通过一个单一界面轻松管理外部编辑工具，例如 LSP 服务器、DAP 服务器、代码检查工具（linters）和格式化工具（formatters）。它适用于所有 Neovim 支持的操作系统（Linux、macOS、Windows 等），仅需要少量的外部工具支持。
+
+默认情况下，软件包安装在 Neovim 的数据目录（ `:h standard-path` ）中。可执行文件会链接到一个单一的 `bin/` 目录，mason.nvim 会在设置时将该目录添加到 Neovim 的 PATH 环境变量中，使得可以通过 Neovim 内置工具（如 shell、terminal 等）以及其他第三方插件无缝访问这些工具。
+
+---
+
+## 要求
+
+mason.nvim 放宽了最低要求，尝试支持多种不同的工具（例如 wget、curl 和 Invoke-WebRequest 等都可以作为替代工具）。最低建议的要求如下：
+
+Neovim >= 0.10.0
+
+Unix 系统：需要安装 git(1)、curl(1) 或 wget(1)、unzip(1)、tar(1)、gzip(1)
+
+Windows 系统：需要安装 pwsh 或 powershell、git、tar 以及 7zip 或 peazip 或 archiver 或 winzip 或 WinRAR
+
+请注意，Mason 会定期调用外部包管理器，例如 cargo 和 npm，这些工具可能也需要根据个人的使用情况安装。可以通过 :checkhealth mason 查看完整的依赖列表。
+
+---
+
+## 快速开始
+
+设置 Mason.nvim
+
+首先，您需要设置 Mason。通过调用 setup() 函数来进行设置：
+
+```lua
+require("mason").setup()
+```
+
+Mason 在设置过程中会执行以下操作：
+
+- 添加 Mason 的 bin/ 目录到 Neovim session's PATH。
+- 注册相关命令（mason-commands）
+
+更多设置选项请参考 mason-settings。
+
+安装软件包
+
+通过 `:MasonInstall` 命令安装软件包，例如：
+
+```lua
+:MasonInstall stylua
+```
+
+您还可以一次性安装多个软件包：
+
+:MasonInstall stylua lua-language-server
+
+要安装特定版本的软件包，可以在软件包名称中指定版本号，例如：
+
+```lua
+:MasonInstall rust-analyzer@nightly
+```
+
+请参考每个软件包的发布页面，查看可用的版本。
+
+您还可以在无头模式下安装软件包，这将在命令行模式下执行，直到所有软件包安装完成：
+
+```lua
+$ nvim --headless -c "MasonInstall lua-language-server rust-analyzer" -c qall
+```
+
+注意：
+您还可以使用 Mason 的 Lua API 来程序化管理软件包安装。这种方式还允许您访问更多功能，进行自定义配置。
+
+Mason 窗口
+
+要查看 Mason 的图形界面窗口，可以运行：
+
+```lua
+:Mason
+```
+
+通过这个界面，您可以查看可用的软件包，查看已安装的软件包是否有新版本，安装、卸载或更新软件包，展开软件包信息等。该界面还提供了一组快捷键，您可以在 Mason 窗口打开时通过按 `g?` 来查看帮助文档。
+
+---
+
+## REGISTRIES
+
+mason.nvim 会从它所配置的注册表中获取软件包定义（详见 mason-settings）。默认情况下，mason.nvim 使用由 Mason 官方提供的核心注册表。您还可以通过配置额外的注册表来扩展或完全替代默认的注册表。例如：
+
+```lua
+require("mason").setup {
+    registries = {
+        "lua:my-registry",
+        "github:mason-org/mason-registry",
+    },
+}
+```
+软件包会按照配置的注册表顺序加载，先列出的注册表优先加载。
+
+---
+
+## 如何安装软件包
+
+您可以通过命令界面或 Mason 的 Lua API 安装软件包。具体命令可参考 `:MasonInstall`。
+
+---
+
+## 如何使用软件包
+
+虽然很多软件包可以直接通过 Neovim 内置的功能使用，但建议使用其他第三方插件进行更深度的集成。
+常用命令
+
+    打开 Mason 窗口
+    :Mason
+    打开图形状态窗口，您可以在此界面浏览和管理软件包。
+
+    更新注册表
+    :MasonUpdate
+    更新所有管理的注册表。
+
+    安装软件包
+    :MasonInstall <package> ...
+    安装指定的软件包，可以指定版本号。
+
+    卸载软件包
+    :MasonUninstall <package> ...
+    卸载指定的软件包。
+
+    卸载所有软件包
+    :MasonUninstallAll
+    卸载所有已安装的软件包。
+
+    查看 Mason 日志
+    :MasonLog
+    打开 Mason 日志文件，方便调试和排错。
+
+设置
+
+通过调用 .setup() 函数，您可以配置 Mason 的某些行为。
+
+示例：
+
+require("mason").setup({
+    ui = {
+        icons = {
+            package_installed = "✓",
+            package_pending = "➜",
+            package_uninstalled = "✗"
+        }
+    }
+})
+
+下载镜像
+
+您可以自定义从 GitHub 下载资产的 URL 模板，方法是通过设置 github.download_url_template 来配置下载地址：
+
+require("mason").setup {
+    github = {
+        download_url_template = "https://my.mirror.com/%s/releases/download/%s/%s",
+    }
+}
+
+安装错误
+
+如果使用默认的 api.mason-registry.dev API 解析软件包元数据时发生 SSL 错误，您可以选择切换为客户端提供程序来避免网络问题：
+
+require("mason").setup {
+    providers = {
+        "mason.providers.client",
+        "mason.providers.registry-api",
+    }
+}
+
+调试
+
+为了调试安装/卸载软件包的问题，您可以将 Mason 的日志级别设置为 DEBUG 或 TRACE，以捕获更多详细日志：
+
+require("mason").setup {
+    log_level = vim.log.levels.DEBUG
+}
+
+通过 :MasonLog 查看日志文件。
+## 123
+vim:ft=markdown:norl:

@@ -1,0 +1,169 @@
+*zh-mason-lspconfig*
+
+## 简介
+
+mason-lspconfig.nvim 用于弥补 mason.nvim 与 nvim-lspconfig 之间的一些差距。  
+它的主要职责是：
+
+- 允许你：自动安装 LSP 服务器；自动启用（通过 `vim.lsp.enable()` ）已安装的服务器
+- 提供一些额外的便捷 API，比如 :LspInstall 命令
+- 为某些服务器提供额外的 LSP 配置
+- 在 nvim-lspconfig 的服务器名称 和 mason.nvim 的包名称之间进行转换（例如：lua_ls <-> lua-language-server）
+
+---
+
+## 快速开始
+
+### 安装并设置 mason-lspconfig.nvim
+
+在设置 mason-lspconfig.nvim 前，必须先设置好 mason.nvim 并确保 nvim-lspconfig 已加入 `runtimepath` 中。
+
+要启用插件，需调用 `setup()` 函数：
+
+```lua
+require("mason").setup()
+require("mason-lspconfig").setup()
+```
+
+可用设置请参考：mason-lspconfig-settings
+
+### 设置服务器
+
+mason-lspconfig.nvim 默认会自动启用（调用 vim.lsp.enable()）已安装的服务器，见 mason-automatic-enable
+
+如何配置服务器请参考：lsp-quickstart
+
+### 安装 LSP 服务器
+
+要安装由 nvim-lspconfig 支持（且 mason.nvim 可安装）的 LSP 服务器，可以使用如下命令：
+
+```vim
+:LspInstall rust_analyzer lua_ls
+```
+
+该命令基本上等同于 `:MasonInstall`，但只接受 LSP 服务器名（nvim-lspconfig 使用的名称），而不是 mason.nvim 的包名。
+
+也可以不带任何参数运行：
+
+:LspInstall
+
+这样会根据你当前编辑的文件类型，自动弹出推荐服务器列表。
+命令 (mason-lspconfig-commands)
+安装 LSP 服务器
+
+:LspInstall
+
+:LspInstall [<server> ...]
+
+安装指定的服务器，仅接受 nvim-lspconfig 中存在配置的服务器名称。
+
+也可以传入 filetype（如：:LspInstall typescript），会弹出适用于该语言的所有服务器选项。
+
+如果不带任何参数，会根据当前缓冲区的文件类型提示推荐服务器。
+卸载 LSP 服务器
+
+:LspUninstall
+
+:LspUninstall <server> ...
+
+卸载指定的 LSP 服务器。
+
+---
+
+## 设置
+
+你可以在调用 `.setup()` 函数时配置插件行为。
+
+参考 mason-lspconfig-default-settings 查看所有可用设置
+
+例如：
+
+```lua
+require("mason-lspconfig").setup({
+    ensure_installed = { "rust_analyzer", "ts_ls" }
+})
+```
+
+### mason-lspconfig-default-settings
+
+```lua
+local DEFAULT_SETTINGS = {
+    -- 自动安装的服务器列表，如果未安装则会自动安装
+    ---@type string[]
+    ensure_installed = {},
+
+    -- 是否自动启用已安装的服务器（通过 vim.lsp.enable()）
+
+    -- 排除某些服务器使其不自动启用
+    automatic_enable = {
+        exclude = { "rust_analyzer", "ts_ls" }
+    }
+
+    -- 仅自动启用指定的服务器：
+    automatic_enable = {
+        "lua_ls",
+        "vimls"
+    }
+
+    ---@type boolean | string[] | { exclude: string[] }
+    automatic_enable = true,
+}
+```
+
+---
+
+## 自动启用服务器
+
+默认情况下，mason-lspconfig 会自动启用通过 Mason 安装的服务器，
+这意味着你不需要手动调用 vim.lsp.enable()。
+
+如果想关闭这个功能：
+
+```lua
+require("mason-lspconfig").setup({
+    automatic_enable = false
+})
+```
+
+注意：
+
+非 Mason 安装的服务器将不会被此功能识别，仍需手动启用。
+
+---
+
+## Lua 模块
+
+- setup({config})
+  - 设置 mason，传入配置表（参考上面的设置说明）
+
+- get_installed_servers()
+  - 返回已经安装的、由 nvim-lspconfig 支持的 lsp 服务器
+  - 注意：返回的字符串是 nvim-lspconfig 的服务名称，不是 mason 包名。例如：返回 lua_ls 不是 lua-language-serve
+  - string[]
+
+- get_available_servers({filter})
+
+返回所有可用的（包括已安装和未安装）LSP 服务器。
+
+参数 {filter} 可用于过滤，比如指定 filetype。
+
+返回类型：
+
+string[]
+
+get_mappings()
+
+返回下列映射信息：
+
+    nvim-lspconfig 的服务器名 ↔ Mason 的包名
+
+    每种语言对应的文件类型
+
+返回类型：
+
+{
+    lspconfig_to_package: table<string, string>,
+    package_to_lspconfig: table<string, string>,
+    filetypes: table<string, string[]>
+}
+vim:ft=markdown:norl:
